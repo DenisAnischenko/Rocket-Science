@@ -1,0 +1,121 @@
+:root {
+    --background-color: #081F27;
+    --text-dark-blue-color: #081F27;
+    --text-blue-color: #072D3F;
+    --text-color: #ffffff;
+    --main-yellow: #E4C85A;
+}
+
+@mobile-max: ~'only screen and (max-width: 767px)';
+@tablet-up: ~'only screen and (min-width: 768px)';
+
+html, body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.desktop-hide {
+    @media @tablet-up {
+        display: none !important;
+    }
+}
+
+.mobile-hide {
+    @media @mobile-max {
+        display: none !important;
+    }
+}
+
+.menu-mobile {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 25px;
+
+    .inst {
+        margin-right: 18px;
+
+        img {
+            display: block;
+            height: 21px;
+        }
+    }
+}
+
+.menu-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 21px;
+    padding: 0;
+
+    background: none;
+    border: none;
+    -webkit-appearance: none;
+
+    span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: var(--text-color);
+    }
+
+    &.close-menu {
+        span {
+            background: var(--text-dark-blue-color);
+        }
+    }
+}
+
+.menu {
+    @media @mobile-max {
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        padding-top: 42px;
+
+        width: 100%;
+        background: var(--main-yellow);
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in-out;
+
+        &.open {
+            transform: translateY(0);
+        }
+
+        .menu-btn {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+        }
+
+        a, p {
+            box-sizing: border-box;
+            margin: 0;
+            height: 60px;
+            line-height: 60px;
+
+            font-size: 24px;
+            font-weight: 700;
+
+            color: var(--text-blue-color);
+            text-decoration: none;
+            text-align: center;
+
+            &:not(:last-child) {
+                border-bottom: 1px solid white;
+            }
+        }
+
+        p {
+            span {
+                font-size: 14px;
+                color: var(--text-color);
+            }
+        }
+    }
+}
