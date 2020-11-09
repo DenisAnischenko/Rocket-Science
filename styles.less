@@ -12,6 +12,7 @@
 html, body {
     background-color: var(--background-color);
     color: var(--text-color);
+    font-family: Akrobat;
 }
 
 .desktop-hide {
@@ -24,6 +25,13 @@ html, body {
     @media @mobile-max {
         display: none !important;
     }
+}
+
+h2 {
+    color: var(--main-yellow);
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
 }
 
 .menu-mobile {
@@ -122,12 +130,12 @@ html, body {
 }
 
 .logo {
-    width: 300px;
     padding: 0 0 0 21px;
 
     h1 {
         margin: 0;
         font-size: 68px;
+        font-family: VAG Round Cyrillic;
     }
 
     h3 {
@@ -143,7 +151,7 @@ html, body {
     .cosmonaut {
         position: absolute;
         top: -100px;
-        right: 20px;
+        right: 10px;
 
         width: 302px;
         height: 367px;
@@ -153,14 +161,14 @@ html, body {
     .moon {
         position: absolute;
         top: 60px;
-        right: 230px;
+        right: 220px;
 
         width: 131px;
         height: 138px;
         background: url("/images/moon-big.svg") center no-repeat;
     }
 
-    p {
+    h3 {
         margin: 0;
         padding: 320px 24px 0 24px;
 
@@ -184,7 +192,7 @@ html, body {
 .links {
     margin-top: 57px;
 
-    h3 {
+    p {
         margin: 0 0 25px 0;
         padding: 0 35px;
 
@@ -230,5 +238,134 @@ html, body {
         &.viber {
             background: linear-gradient(223.36deg, #8E24AA 21.61%, #6C0F85 77.17%);
         }
+    }
+}
+
+.advantages {
+    margin-top: 80px;
+
+    header {
+        margin-bottom: 60px;
+
+        h2 {
+            margin: 0;
+            padding: 0 22px;
+        }
+
+        p {
+            margin: 45px 0 0 0;
+            padding: 0 30px;
+            font-size: 18px;
+            font-weight: 800;
+            line-height: 22.5px;
+        }
+    }
+
+    article {
+        padding: 0 50px;
+        text-align: center;
+
+        &:not(:last-of-type) {
+            margin-bottom: 100px;
+        }
+
+        .icon {
+            margin: 0 auto;
+            width: 70px;
+            height: 70px;
+            border-radius: 10px;
+            background: var(--main-yellow) center no-repeat;
+        }
+
+        h3 {
+            margin: 17px 0 24px;
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 40px;
+        }
+
+        p {
+            margin: 0;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 35px;
+        }
+    }
+
+}
+
+.app {
+    margin-top: 100px;
+
+    h4 {
+        padding: 0 30px;
+
+        text-align: center;
+        color: var(--main-yellow);
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 22px;
+        margin: 0 25px;
+
+
+        background: var(--text-color);
+        border: 3px solid var(--main-yellow);
+        border-radius: 30px;
+        text-decoration: none;
+
+        span {
+            display: inline-block;
+        }
+
+        .text {
+            color: var(--text-dark-blue-color);
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        .image {
+            position: relative;
+            width: 65px;
+            height: 65px;
+            background: var(--main-yellow) radial-gradient(50% 50% at 50% 50%, #FFEFBD 20.31%, #E4C85A 86.98%);
+            box-shadow: 0 4px 20px rgba(70, 56, 0, 0.4);
+            border-radius: 100%;
+
+            &:after {
+                content: '';
+                display: inline-block;
+                width: 65px;
+                height: 65px;
+                background: url('/images/cosmonaut_round.png') no-repeat center 0;
+            }
+        }
+    }
+}
+
+.adaptation {
+    margin: 100px 25px 0 25px;
+
+    p {
+        margin: 0;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 35px;
+    }
+}
+
+.program {
+    margin-top: 150px;
+    padding: 0 25px;
+
+    h2 {
+        margin: 0 0 40px 0;
     }
 }
