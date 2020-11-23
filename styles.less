@@ -1,6 +1,7 @@
 :root {
     --background-color: #081F27;
-    --text-dark-blue-color: #081F27;
+    --background-highlight-color: #ffffff;
+    --text-dark-blue-color: #081f27;
     --text-blue-color: #072D3F;
     --text-color: #ffffff;
     --main-yellow: #E4C85A;
@@ -92,7 +93,7 @@ h2 {
         transform: translateY(-100%);
         transition: transform 0.3s ease-in-out;
 
-        &.open {
+        &.opened {
             transform: translateY(0);
         }
 
@@ -315,7 +316,7 @@ h2 {
         margin: 0 25px;
 
 
-        background: var(--text-color);
+        background: var(--background-highlight-color);
         border: 3px solid var(--main-yellow);
         border-radius: 30px;
         text-decoration: none;
@@ -368,4 +369,78 @@ h2 {
     h2 {
         margin: 0 0 40px 0;
     }
+}
+
+.accordion-wrapper {
+    margin-top: 15px;
+
+    &.opened {
+        h4 {
+            color: var(--main-yellow);
+        }
+
+        .accordion {
+            border: 3px solid var(--main-yellow);
+            box-shadow: 0 3px 20px rgba(131, 102, 11, 0.45);
+        }
+
+        header {
+            padding-bottom: 5px;
+            border-bottom: 1px solid var(--main-yellow);
+        }
+
+        .arrow-icon {
+            transform: scale(-1);
+        }
+
+        .content {
+            height: auto !important;
+        }
+    }
+
+    h4 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .accordion {
+        box-sizing: border-box;
+        padding: 15px 20px;
+
+        border: 3px solid var(--background-highlight-color);
+        background: var(--background-highlight-color);
+        color: var(--text-dark-blue-color);
+
+        border-radius: 15px;
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h3 {
+            margin: 0 -20px;
+            padding: 0 20px;
+            font-size: 24px;
+        }
+
+        .content {
+            padding-top: 15px;
+            height: 0;
+            overflow: hidden;
+            
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        ul {
+            margin: 0;
+        }
+    }
+}
+
+.faq {
+    margin-top: 150px;
+    padding: 0 25px;
 }
