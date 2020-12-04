@@ -130,6 +130,18 @@ h2 {
     }
 }
 
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 22px;
+
+
+    background: var(--background-highlight-color);
+    border: 3px solid var(--main-yellow);
+    border-radius: 30px;
+}
+
 .logo {
     padding: 0 0 0 21px;
 
@@ -192,6 +204,12 @@ h2 {
 
 .links {
     margin-top: 57px;
+
+    &.white {
+        p {
+            color: var(--text-color);
+        }
+    }
 
     p {
         margin: 0 0 25px 0;
@@ -309,16 +327,6 @@ h2 {
     }
 
     a {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 22px;
-        margin: 0 25px;
-
-
-        background: var(--background-highlight-color);
-        border: 3px solid var(--main-yellow);
-        border-radius: 30px;
         text-decoration: none;
 
         span {
@@ -429,7 +437,7 @@ h2 {
             padding-top: 15px;
             height: 0;
             overflow: hidden;
-            
+
             font-weight: 700;
             font-size: 14px;
         }
@@ -443,4 +451,148 @@ h2 {
 .faq {
     margin-top: 150px;
     padding: 0 25px;
+}
+
+.pricing {
+    margin-top: 80px;
+    padding: 0 25px;
+
+    h2 {
+        margin-bottom: 50px;
+    }
+
+    .box {
+        flex-direction: column;
+        font-weight: 800;
+        color: var(--text-dark-blue-color);
+
+        p {
+            margin: 10px 0 0 0;
+        }
+
+        .price {
+            font-size: 72px;
+        }
+    }
+
+    .description {
+        margin-top: 50px;
+        padding: 0 15px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+
+        p {
+            margin: 0;
+        }
+
+        span {
+            color: var(--main-yellow);
+        }
+    }
+}
+
+.reviews {
+    margin-top: 80px;
+
+    h2 {
+        padding: 0 25px;
+    }
+
+    .slider {
+        position: relative;
+        overflow: hidden;
+
+        .slider-wrapper {
+            overflow: hidden;
+            transition: transform 0.3s ease-in;
+        }
+
+        .nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 5;
+
+            width: 20px;
+            height: 20px;
+
+            border-left: 4px solid var(--main-yellow);
+            border-bottom: 4px solid var(--main-yellow);
+
+            cursor: pointer;
+
+            &:hover {
+                border-left-color: var(--text-color);
+                border-bottom-color: var(--text-color);
+
+            }
+
+            &.left {
+                left: 20px;
+                transform: rotate(45deg);
+            }
+
+            &.right {
+                right: 20px;
+                transform: rotate(-135deg);
+            }
+        }
+
+        .slide {
+            float: left;
+            box-sizing: border-box;
+
+            width: 100vw;
+            padding: 0 60px;
+
+            header {
+                display: flex;
+                margin-bottom: 40px;
+
+                .img {
+                    width: 130px;
+                    min-width: 130px;
+                    height: 130px;
+
+                    border-radius: 50%;
+
+                    background: #ccc;
+                }
+
+                .right {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    margin-left: 20px;
+
+                    color: var(--text-color);
+
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 30px;
+
+                    .name {
+                        margin-bottom: 10px;
+                    }
+
+                    .social {
+                        a {
+                            display: flex;
+                            text-decoration: none;
+                            word-break: break-word;
+                            color: var(--text-color);
+                        }
+                    }
+                }
+            }
+
+            article {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 30px;
+            }
+        }
+    }
 }
