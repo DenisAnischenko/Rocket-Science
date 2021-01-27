@@ -15,6 +15,12 @@ html, body {
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: Akrobat;
+
+    @media @tablet-up {
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
 }
 
 .desktop-hide {
@@ -359,28 +365,54 @@ h2 {
     }
 }
 
-
 .advantages {
     margin-top: 80px;
 
     @media @tablet-up {
         margin-top: 310px;
+        margin-bottom: 100px;
+        padding: 0 100px;
     }
 
     header {
         margin-bottom: 60px;
 
+        @media @tablet-up {
+            margin-bottom: 100px;
+        }
+
         h2 {
             margin: 0;
-            padding: 0 22px;
+
+            @media @mobile-max {
+                padding: 0 22px;
+            }
         }
 
         p {
             margin: 45px 0 0 0;
-            padding: 0 30px;
             font-size: 18px;
             font-weight: 800;
             line-height: 22.5px;
+
+            @media @mobile-max {
+                padding: 0 30px;
+            }
+
+            @media @tablet-up {
+                margin: 100px 0 0 0;
+                font-size: 48px;
+                line-height: 65px;
+            }
+        }
+    }
+
+    .wrapper {
+        @media @tablet-up {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 100px;
         }
     }
 
@@ -388,8 +420,13 @@ h2 {
         padding: 0 50px;
         text-align: center;
 
-        &:not(:last-of-type) {
+        @media @mobile-max {
             margin-bottom: 100px;
+        }
+
+        @media @tablet-up {
+            padding: 0;
+            text-align: left;
         }
 
         .icon {
@@ -398,6 +435,9 @@ h2 {
             height: 70px;
             border-radius: 10px;
             background: var(--main-yellow) center no-repeat;
+            @media @tablet-up {
+                margin: 0;
+            }
         }
 
         h3 {
@@ -417,10 +457,26 @@ h2 {
 
 }
 
+.app-adaptation-wrapper {
+    @media @tablet-up {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 100px;
+    }
+}
+
 .app {
-    margin-top: 100px;
+    @media @mobile-max {
+        margin-top: 100px;
+    }
+    @media @tablet-up {
+        margin-right: 100px;
+        width: 505px;
+        min-width: 505px;
+    }
 
     h4 {
+        margin: 0 0 25px 0;
         padding: 0 30px;
 
         text-align: center;
@@ -428,10 +484,23 @@ h2 {
         font-weight: 800;
         font-size: 24px;
         line-height: 35px;
+
+        @media @tablet-up {
+            margin: 0 0 45px 0;
+            padding: 0;
+            text-align: left;
+            font-size: 36px;
+            line-height: 50px;
+            br {
+                display: none;
+            }
+        }
     }
 
     a {
-        margin: 0 25px;
+        @media @mobile-max {
+            margin: 0 25px;
+        }
         text-decoration: none;
 
         span {
@@ -467,17 +536,38 @@ h2 {
 .adaptation {
     margin: 100px 25px 0 25px;
 
+    @media @tablet-up {
+        margin: 0;
+        max-width: 600px;
+        br {
+            display: none;
+        }
+    }
+
     p {
         margin: 0;
-        font-weight: bold;
+        font-weight: 800;
         font-size: 18px;
         line-height: 35px;
+
+        @media @tablet-up {
+            span {
+                display: block;
+            }
+
+            font-size: 30px;
+            line-height: 60px;
+        }
     }
 }
 
 .program {
     margin-top: 150px;
     padding: 0 25px;
+
+    @media @tablet-up {
+        margin-top: 370px;
+    }
 
     h2 {
         margin: 0 0 40px 0;
