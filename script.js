@@ -40,7 +40,7 @@
             prev = document.querySelector('.nav.left'),
             next = document.querySelector('.nav.right');
 
-        sliderWrapper.style.width = 100 * slideCount + '%';
+        sliderWrapper.style.width = 100 * slideCount + 'vw';
 
         prev.addEventListener('click', clickPrev)
         next.addEventListener('click', clickNext)

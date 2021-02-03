@@ -6,10 +6,24 @@
     --text-color: #ffffff;
     --main-yellow: #E4C85A;
     --main-yellow-rgb: 244, 145, 30;
+
+    --side-padding: 25px;
+
+    @media @tablet-up {
+        --side-padding: 50px;
+    }
+    @media @desktop-big-up {
+        --side-padding: 100px;
+    }
+
+
 }
+
 
 @mobile-max: ~'only screen and (max-width: 767px)';
 @tablet-up: ~'only screen and (min-width: 768px)';
+@desktop-up: ~'only screen and (min-width: 1280px)';
+@desktop-big-up: ~'only screen and (min-width: 1440px)';
 
 html, body {
     background-color: var(--background-color);
@@ -44,6 +58,7 @@ h2 {
 
     @media @tablet-up {
         font-size: 96px;
+        line-height: 120px;
     }
 }
 
@@ -175,7 +190,7 @@ h2 {
 .intro {
     @media @tablet-up {
         margin-top: 120px;
-        margin-left: 95px;
+        margin-left: var(--side-padding);
     }
 
     .logo {
@@ -371,7 +386,7 @@ h2 {
     @media @tablet-up {
         margin-top: 310px;
         margin-bottom: 100px;
-        padding: 0 100px;
+        padding: 0 var(--side-padding);
     }
 
     header {
@@ -563,7 +578,7 @@ h2 {
 
 .program {
     margin-top: 150px;
-    padding: 0 25px;
+    padding: 0 var(--side-padding);
 
     @media @tablet-up {
         margin-top: 370px;
@@ -571,15 +586,25 @@ h2 {
 
     h2 {
         margin: 0 0 40px 0;
+        @media @tablet-up {
+            margin: 0 0 110px 0;
+        }
     }
 }
 
 .accordion-wrapper {
     margin-top: 15px;
 
+    @media @tablet-up {
+        display: flex;
+    }
+
     &.opened {
         h4 {
             color: var(--main-yellow);
+            @media @mobile-max {
+                margin: 0 0 13px 0;
+            }
         }
 
         .accordion {
@@ -604,6 +629,11 @@ h2 {
     h4 {
         margin-bottom: 15px;
         font-size: 18px;
+
+        @media @tablet-up {
+            margin: 0 80px 0 0;
+            font-size: 36px;
+        }
     }
 
     .accordion {
@@ -616,16 +646,31 @@ h2 {
 
         border-radius: 15px;
 
+        @media @tablet-up {
+            flex: 1;
+        }
+
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
+
+            @media @tablet-up {
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
         }
 
         h3 {
             margin: 0 -20px;
             padding: 0 20px;
             font-size: 24px;
+
+            @media @tablet-up {
+                font-size: 30px;
+            }
         }
 
         .content {
@@ -635,6 +680,10 @@ h2 {
 
             font-weight: 700;
             font-size: 14px;
+
+            @media @tablet-up {
+                font-size: 24px;
+            }
         }
 
         ul {
@@ -645,15 +694,29 @@ h2 {
 
 .faq {
     margin-top: 150px;
-    padding: 0 25px;
+    padding: 0 var(--side-padding);
+    @media @tablet-up {
+        margin-top: 200px;
+    }
 }
 
 .pricing {
     margin-top: 80px;
-    padding: 0 25px;
+    padding: 0 var(--side-padding);
+
+    @media @tablet-up {
+        margin-top: 260px;
+
+        .pricing-wrapper {
+            display: flex;
+        }
+    }
 
     h2 {
-        margin-bottom: 50px;
+        margin: 0 0 50px 0;
+        @media @tablet-up {
+            margin: 0 0 100px 0;
+        }
     }
 
     .box {
@@ -661,12 +724,24 @@ h2 {
         font-weight: 800;
         color: var(--text-dark-blue-color);
 
+        @media @tablet-up {
+            flex: 1;
+        }
+
         p {
             margin: 10px 0 0 0;
+            @media @tablet-up {
+                font-size: 36px;
+                line-height: 85px;
+            }
         }
 
         .price {
             font-size: 72px;
+            @media @tablet-up {
+                font-size: 72px;
+                line-height: 85px;
+            }
         }
     }
 
@@ -677,12 +752,41 @@ h2 {
         font-size: 24px;
         line-height: 30px;
 
+        @media @tablet-up {
+            flex: 1;
+            margin: 0 0 0 120px;
+            font-size: 30px;
+            line-height: 50px;
+        }
+
         p {
             margin: 0;
+            @media @tablet-up {
+                br {
+                    display: none;
+                }
+            }
         }
 
         span {
             color: var(--main-yellow);
+        }
+    }
+
+    @media @tablet-up {
+        .links {
+
+            p {
+                margin-bottom: 60px;
+
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 60px;
+            }
+
+            .social {
+                justify-content: center;
+            }
         }
     }
 }
@@ -692,6 +796,15 @@ h2 {
 
     h2 {
         padding: 0 25px;
+    }
+
+    @media @tablet-up {
+        margin-top: 230px;
+        padding: 0 var(--side-padding);
+        h2 {
+            margin: 0 0 70px 0;
+            padding: 0;
+        }
     }
 
     .slider {
@@ -740,6 +853,11 @@ h2 {
 
             width: 100vw;
             padding: 0 60px;
+
+            @media @tablet-up {
+                padding: 0 200px;
+                width: calc(100vw - var(--side-padding) * 2);
+            }
 
             header {
                 display: flex;
@@ -800,6 +918,12 @@ footer {
         font-size: 24px;
         line-height: 30px;
         margin-bottom: 14px;
+
+        @media @tablet-up {
+            font-size: 36px;
+            line-height: 45px;
+            margin-bottom: 30px;
+        }
     }
 
     .email {
@@ -809,12 +933,23 @@ footer {
         font-size: 18px;
         line-height: 30px;
         color: var(--text-color);
+
+        @media @tablet-up {
+            font-size: 24px;
+            line-height: 30px;
+        }
     }
 
     .social {
         display: flex;
         justify-content: center;
         margin-top: 20px;
+
+        @media @tablet-up {
+            margin-top: 30px;
+
+        }
+
 
         a {
             display: flex;
@@ -824,6 +959,7 @@ footer {
             width: 40px;
             height: 40px;
             border-radius: 50%;
+
 
             &:not(:last-of-type) {
                 margin-right: 15px;
@@ -843,6 +979,14 @@ footer {
 
             &.instagram {
                 background: linear-gradient(43.94deg, #EEA054 16.16%, #D64763 50.11%, #B62A99 83.68%);
+            }
+
+            @media @tablet-up {
+                width: 60px;
+                height: 60px;
+                img {
+                    width: 30px;
+                }
             }
         }
     }
