@@ -37,6 +37,12 @@ html, body {
     }
 }
 
+body {
+    @media @mobile-max {
+        background: url("images/intro-bg-samll.svg") top/contain no-repeat ;
+    }
+}
+
 .desktop-hide {
     @media @tablet-up {
         display: none !important;
@@ -296,7 +302,6 @@ h2 {
             }
         }
     }
-
 }
 
 .links {
