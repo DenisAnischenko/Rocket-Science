@@ -25,21 +25,25 @@
 @desktop-up: ~'only screen and (min-width: 1280px)';
 @desktop-big-up: ~'only screen and (min-width: 1440px)';
 
-html, body {
-    background-color: var(--background-color);
+html {
     color: var(--text-color);
     font-family: Akrobat;
 
+    @media @mobile-max {
+        background: url("images/pattern-bg-small.svg") top/contain repeat-y, url("images/intro-bg-samll.svg") top/contain no-repeat, var(--background-color);
+    }
+
     @media @tablet-up {
+        background: url("images/pattern-bg.png") top/contain repeat-y, url("images/intro-bg.svg") top/contain no-repeat, var(--background-color);
         width: 100%;
-        max-width: 1440px;
-        margin: 0 auto;
     }
 }
 
+
 body {
-    @media @mobile-max {
-        background: url("images/intro-bg-samll.svg") top/contain no-repeat ;
+    @media @tablet-up {
+        max-width: 1440px;
+        margin: 0 auto;
     }
 }
 
@@ -165,7 +169,7 @@ h2 {
     @media @tablet-up {
         display: flex;
         justify-content: flex-end;
-        margin: 45px 160px 0 0;
+        padding: 45px 160px 0 0;
 
         a {
             text-decoration: none;
@@ -240,7 +244,16 @@ h2 {
 
             width: 302px;
             height: 367px;
-            background: url("/images/cosmonaut_small.svg") center no-repeat;
+            background: url("/images/cosmonaut_small.png") center no-repeat;
+
+            @media @tablet-up {
+                top: -230px;
+                right: 110px;
+
+                width: 683px;
+                height: 879px;
+                background: url("/images/cosmonaut.png") center no-repeat;
+            }
         }
 
         .moon {
@@ -251,6 +264,10 @@ h2 {
             width: 131px;
             height: 138px;
             background: url("/images/moon-big.svg") center no-repeat;
+
+            @media @tablet-up {
+                display: none;
+            }
         }
 
         h3 {
@@ -286,6 +303,10 @@ h2 {
     .links {
         @media @tablet-up {
             margin-top: 120px;
+            max-width: 570px;
+            br {
+                display: none;
+            }
         }
 
         p {
@@ -544,6 +565,8 @@ h2 {
 
             &:after {
                 content: '';
+                position: relative;
+                top: 5px;
                 display: inline-block;
                 width: 65px;
                 height: 65px;
