@@ -107,7 +107,7 @@ closeBurgerBtn.addEventListener('click', closeBurger);
 content.addEventListener('click', closeBurger);
 window.addEventListener('scroll', (e) => {
     if(window.innerHeight > 567) {
-        console.log(window.innerHeight);
+        
         closeBurger()
     }
 });

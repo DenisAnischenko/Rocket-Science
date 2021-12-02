@@ -989,6 +989,7 @@ body {
   }
 }
 .intro .intro__container .intro__row .intro__body .intro__counter .counter-text {
+  text-align: center;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.03em;
@@ -1010,6 +1011,7 @@ body {
   padding: 5px;
 }
 .intro .intro__container .intro__row .intro__body .intro__counter .counter-link a span:first-child {
+  padding-left: 10px;
   font-family: "DeathStar", sans-serif;
   font-size: 40px;
   line-height: 46px;
@@ -1380,7 +1382,7 @@ body {
 }
 @media (max-width: 768px) {
   .advantages .advantages__row .advantages__list .advantages__item {
-    padding: 20;
+    padding: 20px;
   }
 }
 @media (max-width: 576px) {
