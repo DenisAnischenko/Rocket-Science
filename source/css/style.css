@@ -989,9 +989,9 @@ body {
   }
 }
 .intro .intro__container .intro__row .intro__body .intro__counter .counter-text {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   margin-bottom: 3px;
 }
 @media (max-width: 320px) {
