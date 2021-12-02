@@ -989,6 +989,7 @@ body {
   }
 }
 .intro .intro__container .intro__row .intro__body .intro__counter .counter-text {
+  text-align: center;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.03em;
