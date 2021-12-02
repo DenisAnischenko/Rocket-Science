@@ -1382,7 +1382,7 @@ body {
 }
 @media (max-width: 768px) {
   .advantages .advantages__row .advantages__list .advantages__item {
-    padding: 20;
+    padding: 20px;
   }
 }
 @media (max-width: 576px) {
