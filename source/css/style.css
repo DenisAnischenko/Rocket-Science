@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   src: url("../../fonts/futuralightc.eot?#iefix") format("embedded-opentype"), url("../../fonts/futuralightc.woff2") format("woff2"), url("../../fonts/futuralightc.woff") format("woff"), url("../../fonts/futuralightc.ttf") format("truetype"), url("../../fonts/futuralightc.svg#futuralightc") format("svg");
   /* Chrome < 4, Legacy iOS */
 }
-.footer, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__logo, .program .program__row .program__list .program__item, .advantages .advantages__row .advantages__list .advantages__item, .header {
+.footer, .program .program__row .program__list .program__item, .advantages .advantages__row .advantages__list .advantages__item, .header {
   background: rgba(255, 255, 255, 0.15);
   -webkit-backdrop-filter: blur(30px);
           backdrop-filter: blur(30px);
@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__logo, .program .program__row .program__list .program__item, .advantages .advantages__row .advantages__list .advantages__item {
+.program .program__row .program__list .program__item, .advantages .advantages__row .advantages__list .advantages__item {
   border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
@@ -353,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__logo, .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__logo, .program .program__row .program__list .program__item .item__content .item__top .item__logo {
+.reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__logo {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   width: 100px;
@@ -361,40 +361,15 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
 }
 @media (max-width: 576px) {
-  .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__logo, .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__logo, .program .program__row .program__list .program__item .item__content .item__top .item__logo {
+  .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__logo {
     width: 80px;
     height: 80px;
   }
 }
 @media (max-width: 320px) {
-  .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__logo, .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__logo, .program .program__row .program__list .program__item .item__content .item__top .item__logo {
+  .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__logo {
     width: 60px;
     height: 60px;
-  }
-}
-
-.faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__logo .item__num, .program .program__row .program__list .program__item .item__content .item__top .item__logo .item__num {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  font-family: "FuturaDemiC", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 60px;
-  line-height: 70px;
-  color: #F5E098;
-}
-@media (max-width: 576px) {
-  .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__logo .item__num, .program .program__row .program__list .program__item .item__content .item__top .item__logo .item__num {
-    font-size: 50px;
-    top: 51%;
-  }
-}
-@media (max-width: 320px) {
-  .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__logo .item__num, .program .program__row .program__list .program__item .item__content .item__top .item__logo .item__num {
-    font-size: 40px;
   }
 }
 
@@ -1086,10 +1061,36 @@ body {
   width: 245px;
   height: 71px;
   position: relative;
+  border-radius: 40px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .intro .intro__container .intro__row .intro__body .intro__links .intro__btn button:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+.intro .intro__container .intro__row .intro__body .intro__links .intro__btn button svg {
+  margin-right: 20px;
+}
+.intro .intro__container .intro__row .intro__body .intro__links .intro__btn button span {
+  font-family: "FuturaBookC", sans-serif;
+  font-size: 36px;
+  line-height: 41px;
+  color: #FFFFFF;
+}
+.intro .intro__container .intro__row .intro__body .intro__links .intro__btn #telegram__btn {
+  background: linear-gradient(36.1deg, #1E86C7 17.56%, #37ADE1 82.2%);
+}
+.intro .intro__container .intro__row .intro__body .intro__links .intro__btn #instagram__btn {
+  background: linear-gradient(96.51deg, #5358C5 1.64%, #6542B7 24.54%, #A3408F 65.08%, #F7D37F 98.51%);
 }
 @media (max-width: 768px) {
   .intro .intro__container .intro__row .intro__body .intro__links .intro__btn button:first-child {
@@ -1583,7 +1584,6 @@ body {
   }
 }
 .program .program__row .program__list .program__item .item__content .item__top .item__logo {
-  border: 1px solid #F5E098;
   margin-right: 30px;
   position: relative;
   -ms-flex-item-align: center;
@@ -1599,8 +1599,6 @@ body {
   .program .program__row .program__list .program__item .item__content .item__top .item__logo {
     margin-right: 0;
     margin-bottom: 20px;
-    width: 80px;
-    height: 80px;
   }
 }
 @media (max-width: 576px) {
@@ -1608,9 +1606,14 @@ body {
     margin-bottom: 10px;
   }
 }
+.program .program__row .program__list .program__item .item__content .item__top .item__logo svg {
+  width: 100px;
+  height: 100px;
+}
 @media (max-width: 768px) {
-  .program .program__row .program__list .program__item .item__content .item__top .item__logo .item__num {
-    font-size: 50px;
+  .program .program__row .program__list .program__item .item__content .item__top .item__logo svg {
+    width: 80px;
+    height: 80px;
   }
 }
 @media (max-width: 768px) {
@@ -2004,6 +2007,12 @@ body {
   .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__logo {
     margin-right: 0;
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__logo svg {
+    width: 80px;
+    height: 80px;
   }
 }
 .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header {
