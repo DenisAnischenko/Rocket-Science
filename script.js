@@ -19,7 +19,7 @@ const swiper2 = new Swiper(".swiper2", {
     speed: 1000,
     slidesPerView: 1,
     spaceBetween: 20,
-    loop: true,
+    loop: false,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
