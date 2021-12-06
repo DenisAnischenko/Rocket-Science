@@ -294,25 +294,6 @@ $second-yellow: #F5E098;
     height: 60px;
   }
 }
-%logo-num{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'FuturaDemiC', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 60px;
-  line-height: 70px;
-  color: $second-yellow;
-  @include _576{
-    font-size: 50px;
-    top: 51%;
-  }
-  @include _320{
-    font-size: 40px;
-  }
-}
 %slider-btn{
   .swiper-button-prev::after,
   .swiper-button-next::after{
@@ -721,9 +702,10 @@ body{
         }
         .counter-text{
           @extend %intro-subtitle;
-          font-size: 20px;
+          text-align: center;
+          font-size: 18px;
           line-height: 28px;
-          letter-spacing: 0.07em;
+          letter-spacing: 0.03em;
           margin-bottom: 3px;
           @include _320{
             font-size: 16px;
@@ -739,6 +721,7 @@ body{
             padding: 5px;
             span{
               &:first-child{
+               padding-left: 10px;
                font-family: 'DeathStar', sans-serif;
                font-size: 40px;
                line-height: 46px;
@@ -795,10 +778,30 @@ body{
             width: 245px;
             height: 71px;
             position: relative;
+            border-radius: 40px;
+				    overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             &:hover{
               transform: scale(1.05);
             }
+            svg{
+              margin-right: 20px;
+            }
+            span{
+              font-family: 'FuturaBookC', sans-serif;
+              font-size: 36px;
+				      line-height: 41px;
+				      color: #FFFFFF;
+            }
            @extend %btn-animation;
+          }
+          #telegram__btn{
+            background: linear-gradient(36.1deg, #1E86C7 17.56%, #37ADE1 82.2%);
+          }
+          #instagram__btn{
+            background: linear-gradient(96.51deg, #5358C5 1.64%, #6542B7 24.54%, #A3408F 65.08%, #F7D37F 98.51%);
           }
           button:first-child{
             @include _768{
@@ -1038,7 +1041,7 @@ body{
        padding: 30px 30px 40px;
        text-align: center;
        @include _768{
-        padding: 20;
+        padding: 20px;
        }
        @include _576{
         padding: 15px;
@@ -1185,8 +1188,6 @@ body{
              margin-bottom: 10px;
            }
            .item__logo{
-             @extend %logo-circle;
-             border: 1px solid $second-yellow;
              margin-right: 30px;
              position: relative;
              align-self: center;
@@ -1196,17 +1197,17 @@ body{
              @include _768{
                margin-right: 0;
                margin-bottom: 20px;
-               width: 80px;
-               height: 80px;
              }
              @include _576{
                margin-bottom: 10px;
              }
-             .item__num{
-               @extend %logo-num;
+             svg{
+               width: 100px;
+               height: 100px;
                @include _768{
-                 font-size: 50px;
-               }
+                 width: 80px;
+                 height: 80px;
+               }               
              }
            }
            .item__header{
@@ -1312,6 +1313,9 @@ body{
          }
          .item__text{
            p{
+            a{
+              color: $main-yellow;
+              }
              @extend %second-font-style;
              @include _576{
                text-align: justify;
@@ -1522,18 +1526,18 @@ body{
            }
          }
          .item__logo{
-           @extend %logo-circle;
            margin-bottom: 30px;
-           @extend %bg-blur;
-           @extend %block-border;
            position: relative;
            @include _576{
              margin-right: 0;
              margin-bottom: 10px;
            }
-           .item__num{
-             @extend %logo-num;
-           }
+           svg{
+            @include _768{
+              width: 80px;
+              height: 80px;
+            }               
+          }
          }
          .item__header{
            @extend %h4-header;
