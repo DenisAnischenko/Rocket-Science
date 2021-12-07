@@ -2077,7 +2077,7 @@ body {
 @media (max-width: 992px) {
   .footer .footer__row .footer__logo {
     margin-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 .footer .footer__row .footer-nav {
@@ -2130,7 +2130,7 @@ body {
           align-items: center;
 }
 .footer .footer__row .footer__link .link__social {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .footer .footer__row .footer__link .link__social a:first-child {
   margin-right: 50px;
