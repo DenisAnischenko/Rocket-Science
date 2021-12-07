@@ -1010,8 +1010,8 @@ body {
 }
 .intro .intro__container .intro__row .intro__body .intro__links .intro__text {
   font-family: "FuturaBookC", sans-serif;
-  font-size: 36px;
-  line-height: 41px;
+  font-size: 30px;
+  line-height: 40px;
   color: #CFCFCF;
   margin-bottom: 15px;
 }
@@ -1078,7 +1078,7 @@ body {
           transform: scale(1.05);
 }
 .intro .intro__container .intro__row .intro__body .intro__links .intro__btn button svg {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .intro .intro__container .intro__row .intro__body .intro__links .intro__btn button span {
   font-family: "FuturaBookC", sans-serif;
