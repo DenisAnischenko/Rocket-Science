@@ -1566,8 +1566,11 @@ body{
 }
 //__________________________FOOTER__________________________
 .footer{
- @extend %bg-blur;
- border-top: 1px solid rgba(255, 255, 255, 0.6);
+  @include _992{
+    padding: 20px 0;
+  }
+  @extend %bg-blur;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
  .footer__row{
    display: flex;
    height: 260px;
@@ -1626,14 +1629,24 @@ body{
      }
    }
    .footer__link{
-     a{
-       &:first-child{
-         margin-right: 50px;
-       }
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     .link__social{
+       margin-bottom: 10px;
+      a{
+        &:first-child{
+          margin-right: 50px;
+        }
+      }
+     }
+     .yandex__badge{
+       border-radius: 10px;
      }
    }
  }
 }
+//_________________________ROCKET-SCROLL_________________________
 .scrollup{
   width:200px;
   height:200px;
@@ -1698,7 +1711,7 @@ body{
       .contract__intro{
         font-size: 20px;
         line-height: 24px;
-        margin-bottom: 45px;
+        margin-bottom: 40px;
       }
       .accordion__body{
         .accordion{
