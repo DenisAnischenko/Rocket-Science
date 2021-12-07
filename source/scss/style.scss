@@ -746,8 +746,8 @@ body{
         }
         .intro__text{
           font-family: 'FuturaBookC', sans-serif;
-          font-size: 36px;
-          line-height: 41px;
+          font-size: 30px;
+          line-height: 40px;
           color: #CFCFCF;
           margin-bottom: 15px;
           @include _768{
@@ -787,7 +787,7 @@ body{
               transform: scale(1.05);
             }
             svg{
-              margin-right: 20px;
+              margin-right: 10px;
             }
             span{
               font-family: 'FuturaBookC', sans-serif;
