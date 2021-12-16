@@ -1194,7 +1194,7 @@
 									</div>
 									</div>
                                     <div class="item__bottom">
-                                        <img scr="images/active_platform_logo.png" height="31" width="155" alt="Active Platform" />
+                                        <img src="images/active_platform_logo.png" height="31" width="155" alt="Active Platform" />
 									</div>
                                 </div>
 								
