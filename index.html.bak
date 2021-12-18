@@ -793,6 +793,29 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
+                                            <a href="https://www.instagram.com/_sinkansen_/" target="_blank">
+                                                <img src="./avatars/dima_alekseev.jpg" alt="dima_alekseev">
+                                            </a>
+                                        </div>
+                                        <h4 class="item__header">
+                                            <a href="https://www.instagram.com/_sinkansen_/" target="_blank">Дима Алексеев</a>
+                                        </h4>
+                                    </div>
+                                    <div class="item__text">
+                                        <p> Я пришел в тестирование с коммерческой работы агентом по недвижимости. Заинтересовался после посещения конференции Open IT.
+										Так как мне всегда нравилось чтобы всё было по полочкам и по инструкции, решил связать себя с тестированием.
+										Люблю замечать неточности или ошибки.
+										У Дениса отличные курсы по отличной цене. Реально стоят своих денег - много теории, достаточно практики,
+										постоянная связь с преподавателем! Лекции проходят увлекательно и познавательно, всегда приятная атмосфера ))
+										Рекомендую для старта в тестировании эти курсы, с ними сможете пройти собеседование и найти работу.
+										Я нашёл себя в <a href="https://customertimes.com/" target="_blank">Customertimes</a> меньше чем за месяц!
+										Спасибо Денису, Тане и всем моим однокурсникам за это
+										</p>
+                                    </div>
+                                </div>									
+                                <div class="swiper-slide">
+                                    <div class="item__top">
+                                        <div class="item__logo">
                                             <a href="https://www.instagram.com/Nesteroma/" target="_blank">
                                                 <img src="./avatars/roman_nesterovich.jpg" alt="roma_nesterovich">
                                             </a>
