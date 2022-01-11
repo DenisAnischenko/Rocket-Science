@@ -227,8 +227,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 576px) {
   .contract .contract__container .contract__row .contract__header, .faq .faq__row .faq__header, .companies .companies__row .companies__header, .reviews .reviews__row .reviews__header, .program .program__header, .course .course__row .course__header, .advantages .advantages__header {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 36px;
+    line-height: 36px;
     margin-bottom: 40px;
   }
 }
@@ -304,26 +304,26 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .program .program__row .program__list .program__item .item__content .item__top .item__header, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
+.faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header, .program .program__row .program__list .program__item .item__content .item__top .item__header, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
   font-family: "FuturaDemiC", sans-serif;
   font-weight: 600;
   font-size: 28px;
   line-height: 33px;
 }
 @media (max-width: 768px) {
-  .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .program .program__row .program__list .program__item .item__content .item__top .item__header, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
+  .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header, .program .program__row .program__list .program__item .item__content .item__top .item__header, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
     font-size: 26px;
     line-height: 30px;
   }
 }
 @media (max-width: 576px) {
-  .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .program .program__row .program__list .program__item .item__content .item__top .item__header, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
+  .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header, .program .program__row .program__list .program__item .item__content .item__top .item__header, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
     font-size: 24px;
     line-height: 28px;
   }
 }
 @media (max-width: 320px) {
-  .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .program .program__row .program__list .program__item .item__content .item__top .item__header, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
+  .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header, .program .program__row .program__list .program__item .item__content .item__top .item__header, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
     font-size: 20px;
     line-height: 20px;
   }
@@ -1734,7 +1734,24 @@ body {
 .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__logo img {
   width: 100%;
 }
-.reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header a {
+.reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header {
+  display: inline-block;
+  margin-right: 30px;
+}
+@media (max-width: 576px) {
+  .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header {
+    margin-right: 10px;
+  }
+}
+.reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header a {
   color: #ffffff;
 }
 .reviews .reviews__row .swiper .swiper-wrapper .swiper-slide .item__text p a {

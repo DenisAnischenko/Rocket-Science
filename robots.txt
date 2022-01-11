@@ -1,0 +1,3 @@
+User-agent: *
+Host: https://rocket-science.pro/
+Sitemap: https://rocket-science.pro/sitemap.xml

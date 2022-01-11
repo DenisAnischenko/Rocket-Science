@@ -190,8 +190,8 @@ $second-yellow: #F5E098;
     margin-bottom: 30px;
   }
   @include _576{
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 36px;
+    line-height: 36px;
     margin-bottom: 40px;
   }
   @include _320{
@@ -1304,11 +1304,20 @@ body{
                width: 100%;
              }
            }
-           .item__header{
-             @extend %h4-header;
-             a{
-               color: $text-color;
+           .item__link{
+             display: flex;
+             align-items: center;
+            .item__header{
+              display: inline-block;
+              @extend %h4-header;
+              margin-right: 30px;
+              @include _576{
+               margin-right: 10px;
              }
+              a{
+                color: $text-color;
+              }
+            }
            }
          }
          .item__text{
