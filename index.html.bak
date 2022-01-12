@@ -1,37 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0">
-    <meta name="description" content="Онлайн курсы по обучению тестированию ПО с нуля с 0 за 8 недель">
-    <meta name="keywords" content="Тестирование, Junior QA, QA, Онлайн-формат обучения, баг, баг-трекинговые системы">
-    <meta name="robots" content="all">
+    <meta name="description" content="Онлайн курсы Rocket Science — обучение тестированию ПО с нуля с 0 за 8 недель. Стажировка после окончания курса. Не упусти возможность трудоустройства в IT-компанию.">
+    <meta name="keywords" content="тестирование, junior qa, qa, онлайн-формат обучения, обучение тестированию ПО, курсы, курсы тестировщиков">
+    <meta name="robots" content="index, follow">
     <meta property="og:locale" content="ru_RU">
-    <meta property="og:type" content="article">
+    <meta property="og:type" content="website">
     <meta property="og:title" content="Rocket Science — Курсы тестирование ПО">
-    <meta property="og:description" content="Обучение тестированию ПО с нуля. Курсы тестировщиков в Минске.">
-    <meta property="og:image" content="https://rocket-science.pro/images/rocket.png">
+    <meta property="og:description" content="Онлайн курсы Rocket Science — обучение тестированию ПО с нуля с 0 за 8 недель. Стажировка после окончания курса. Не упусти возможность трудоустройства в IT-компанию.">
+    <meta property="og:image" content="https://rocket-science.pro/images/rocket_vk.png">
+    <meta property="og:image:width" content="1080" />
+    <meta property="og:image:height" content="607" />
     <meta property="og:url" content="https://rocket-science.pro/">
+    <meta property="og:site_name" content="Rocket Science">
     <meta property="og:name" content="Rocket Science">
     <meta name="twitter:card" content="summary"> 
-    <meta name="twitter:site" content="Rocket Science">
     <meta name="twitter:title" content="Rocket Science — Курсы тестирование ПО, Онлайн-формат обучения">
-    <meta name="twitter:description" content="Обучение тестированию ПО с нуля. Курсы тестировщиков в Минске. Стажировка после окончания курса. Возможность трудоустройства в IT-компанию.">
-    <meta name="twitter:image:src" content="https://rocket-science.pro/images/rocket.png">
+    <meta name="twitter:description" content="Онлайн курсы по обучению тестированию ПО с нуля с 0 за 8 недель. Стажировка после окончания курса. Не упусти возможность трудоустройства в IT-компанию.">
+    <meta name="twitter:image" content="https://rocket-science.pro/images/rocket_twitter.png">
     <meta name="twitter:domain" content="rocket-science.pro">
     <meta name="geo.region" content="BY">
     <meta name="geo.placename" content="Minsk">
     <meta name="geo.position" content="53.902284, 27.561831">
     <meta name="ICBM" content="53.902284, 27.561831">
+    <meta name="google-site-verification" content="cPsRoUIA1rb1hSRG5ztbJ_SNVGcMhQGGkEVbzkuPAKA" />
+    <meta name="yandex-verification" content="24d0b3d32652e7eb" />
+    <meta property="vk:image" content="https://rocket-science.pro/images/rocket_vk.png" />
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K6SXJX8');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(87119882, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true
+    });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/87119882" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <link nonce="" rel="image_src" href="https://rocket-science.pro/images/rocket_vk.png">
     <link rel="stylesheet" type="text/css" href="/source/css/style.css"/>
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/dist/css/lightbox.css">
-    <link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon"/>
-    <title>Rocket Science — Курсы тестирование ПО, Научим тестированию онлайн с 0 за 8 недель.</title>
+    <link rel="shortcut icon" href="https://rocket-science.pro/images/favicon.svg" type="image/svg+xml"/>
+    <title>Rocket Science — Курсы тестирование ПО за 8 недель.</title>
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6SXJX8"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="wrapper">
         <header class="header">
             <div class="container header__container">
@@ -793,13 +824,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/_sinkansen_/" target="_blank">
-                                                <img src="./avatars/dima_alekseev.jpg" alt="dima_alekseev">
+                                            <img src="./avatars/dima_alekseev.jpg" alt="dima_alekseev" title="dima_alekseev">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Дима Алексеев</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/_sinkansen_/" target="_blank">Дима Алексеев</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p> Я пришел в тестирование с коммерческой работы агентом по недвижимости. Заинтересовался после посещения конференции Open IT.
@@ -816,13 +852,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/Nesteroma/" target="_blank">
-                                                <img src="./avatars/roman_nesterovich.jpg" alt="roma_nesterovich">
+                                            <img src="./avatars/roman_nesterovich.jpg" alt="roma_nesterovich" title="roma_nesterovich">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Роман Нестерович</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/Nesteroma/" target="_blank">Роман Нестерович</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Денис, огромное спасибо тебе за действительно хороший курс) Нашел я данный курс благодаря
@@ -838,13 +879,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/li.voinova/" target="_blank">
-                                                <img src="./avatars/liza_yackevich.jpg" alt="liza_yackevich">
+                                            <img src="./avatars/liza_yackevich.jpg" alt="liza_yackevich" title="liza_yackevich">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Лиза Яцкевич</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/li.voinova/" target="_blank">Лиза Яцкевич</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Всем привет! Меня зовут Лиза. По образованию я юрист, но не сложилось..
@@ -858,13 +904,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/natasha.pahirko/" target="_blank">
-                                                <img src="./avatars/natasha_pahirko.png" alt="natasha_pahirko">
+                                            <img src="./avatars/natasha_pahirko.png" alt="natasha_pahirko" title="natasha_pahirko">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Наташа Пахирко</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/natasha.pahirko/" target="_blank">Наташа Пахирко</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Я - Наталья, мне 30 лет. 30, Карл😂 Ребята, раз уж вы зашли на этот сайт,
@@ -879,13 +930,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/_egor_kuzbar_/" target="_blank">
-                                                <img src="./avatars/egor_kuzbar.png" alt="egor_kuzbar">
+                                            <img src="./avatars/egor_kuzbar.png" alt="egor_kuzbar" title="egor_kuzbar">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Егор Кузьбар</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/_egor_kuzbar_/" target="_blank">Егор Кузьбар</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Привет, меня зовут Егор! О курсах я узнал от сестры, она
@@ -905,13 +961,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/danica2383/" target="_blank">
-                                                <img src="./avatars/dasha_kolenchenko.png" alt="dasha_kolenchenko">
+                                            <img src="./avatars/dasha_kolenchenko.png" alt="dasha_kolenchenko" title="dasha_kolenchenko">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Даша Коленченко</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/danica2383/" target="_blank">Даша Коленченко</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Привет, меня зовут Даша. С образованием биолога сложно
@@ -926,11 +987,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://instagram.com/life_is.killing_me?utm_medium=copy_link" target="_blank">
-                                                <img src="./avatars/katya_malkovich.jpg" alt="katya_malkovich">
+                                            <img src="./avatars/katya_malkovich.jpg" alt="katya_malkovich" title="katya_malkovich">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Катя Малкович</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header"><a href="https://instagram.com/life_is.killing_me?utm_medium=copy_link" target="_blank">Катя Малкович</a></h4>
                                     </div>
                                     <div class="item__text">
                                         <p>На фото среди выпускников, нашедших работу, я увидела свою знакомую и
@@ -944,13 +1012,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/lesya.belaruska/" target="_blank">
-                                                <img src="./avatars/olesya_kurganskaya.jpg" alt="olesya_kurganskaya">
+                                            <img src="./avatars/olesya_kurganskaya.jpg" alt="olesya_kurganskaya" title="olesya_kurganskaya">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Олеся Курганская</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/lesya.belaruska/" target="_blank">Олеся Курганская</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Привет, меня зовут Олеся. Моя квалификация экономист,
@@ -963,13 +1036,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/p/CR6en1DBvq6/" target="_blank">
-                                                <img src="./avatars/yula_manko.png" alt="yula_manko">
+                                            <img src="./avatars/yula_manko.png" alt="yula_manko" title="yula_manko">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Юля Манько</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/p/CR6en1DBvq6/" target="_blank">Юля Манько</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Привет. По образованию я учитель математики и информатики. 
@@ -985,13 +1063,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/p/CRq9l3whLEO/" target="_blank">
-                                                <img src="./avatars/natasha_evdokimova.jpg" alt="natasha_evdokimova">
+                                            <img src="./avatars/natasha_evdokimova.jpg" alt="natasha_evdokimova" title="natasha_evdokimova">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Наташа Евдокимова</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/p/CRq9l3whLEO/" target="_blank">Наташа Евдокимова</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Привет, меня зовут Наташа. Нам всегда боязно решиться на что-то новое 
@@ -1005,13 +1088,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/p/CNCYqGSnFbx/" target="_blank">
-                                                <img src="./avatars/tanya_manko.png" alt="tanya_manko">
+                                            <img src="./avatars/tanya_manko.png" alt="tanya_manko" title="tanya_manko">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Таня Манько</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/p/CNCYqGSnFbx/" target="_blank">Таня Манько</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Всем привет! По образованию я учитель математики и информатики.
@@ -1026,13 +1114,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/p/COAKvt8HcYc/" target="_blank">
-                                                <img src="./avatars/vara_salakhova.jpg" alt="vara_salakhova">
+                                            <img src="./avatars/vara_salakhova.jpg" alt="vara_salakhova" title="vara_salakhova">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Варя Саляхова</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/p/COAKvt8HcYc/" target="_blank">Варя Саляхова</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Всем привет из <a href="https://av.by/" target="_blank">av.by</a>, куда я попала благодаря курсам Rocket Science. 
@@ -1045,14 +1138,19 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="item__top">
-                                        <div class="item__logo">
-                                            <a href="https://www.instagram.com/p/CLeIx35HOXo/" target="_blank">
-                                                <img src="./avatars/oksana_hlus.jpg" alt="oksana_hlus">
+                                        <div class="item__logo"> 
+                                            <img src="./avatars/oksana_hlus.jpg" alt="oksana_hlus" title="oksana_hlus">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Оксана Хлус</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/p/CLeIx35HOXo/" target="_blank">Оксана Хлус</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>В первую очередь, хочу выразить благодарность Денису. 
@@ -1070,13 +1168,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/p/CLbp4-BHa34/" target="_blank">
-                                                <img src="./avatars/alla_gritsenko.jpg" alt="alla_gritsenko">
+                                           <img src="./avatars/alla_gritsenko.jpg" alt="alla_gritsenko" title="alla_gritsenko">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Алла Гриценко</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/p/CLbp4-BHa34/" target="_blank">Алла Гриценко</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Летом 2020 ‌приняла решение о смене деятельности, 
@@ -1094,14 +1197,19 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="item__top">
-                                        <div class="item__logo">
-                                            <a href="https://www.instagram.com/p/CIhzyFUhyJN/" target="_blank">
-                                                <img src="./avatars/vika_vavilova.jpg" alt="vika_vavilova">
+                                        <div class="item__logo">                                          
+                                            <img src="./avatars/vika_vavilova.jpg" alt="vika_vavilova" title="vika_vavilova">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Вика Вавилова</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/p/CIhzyFUhyJN/" target="_blank">Вика Вавилова</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Меня зовут Вика. На курсы я попала по совету бывшего коллеги. 
@@ -1117,13 +1225,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/p/CH79MmFBarW/?utm_source=ig_web_copy_link" target="_blank">
-                                                <img src="./avatars/katya_dubovik.jpg" alt="katya_dubovik">
+                                            <img src="./avatars/katya_dubovik.jpg" alt="katya_dubovik" title="katya_dubovik">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Катя Дубовик</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/p/CH79MmFBarW/?utm_source=ig_web_copy_link" target="_blank">Катя Дубовик</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Я окончила юрфак БГУ и спустя два года работы пришла к тому, 
@@ -1139,13 +1252,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/p/CHaXYy-h1QV/" target="_blank">
-                                                <img src="./avatars/polina_abramovich.jpg" alt="polina_abramovich">
+                                            <img src="./avatars/polina_abramovich.jpg" alt="polina_abramovich" title="polina_abramovich">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Полина Абрамович</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/p/CHaXYy-h1QV/" target="_blank">Полина Абрамович</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Привет, меня зовут Полина. Бухгалтерия привила любовь к порядку
@@ -1164,13 +1282,18 @@
                                 <div class="swiper-slide">
                                     <div class="item__top">
                                         <div class="item__logo">
-                                            <a href="https://www.instagram.com/p/CFZ45hKpyG0/" target="_blank">
-                                                <img src="./avatars/sasha_borisenko.png" alt="sasha_borisenko">
+                                            <img src="./avatars/sasha_borisenko.png" alt="sasha_borisenko" title="sasha_borisenko">
+                                        </div>
+                                        <div class="item__link">
+                                            <h4 class="item__header">
+                                                <span>Саша Борисенко</span>
+                                            </h4>
+                                            <a href="#reviews">
+                                                <svg width="30" height="30" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="white"/>
+                                                </svg>
                                             </a>
                                         </div>
-                                        <h4 class="item__header">
-                                            <a href="https://www.instagram.com/p/CFZ45hKpyG0/" target="_blank">Саша Борисенко</a>
-                                        </h4>
                                     </div>
                                     <div class="item__text">
                                         <p>Всем привет, я Саша и раньше я работала менеджером по туризму. 
@@ -1533,9 +1656,10 @@
                                         </svg>                                                                                      
                                     </div>
                                     <h4 class="item__header">Будет ли помощь в трудоустройстве ?</h4>
-                                    <p class="item__text">Трудоустройство во многом зависит зависит от конкретного человека. На курсе вы получите все необходимые знания,
-									которые помогут вам пройти техническую часть собеседования на позицию Junior QA, но на сколько вы эти знания выучите,
-									как активно будете откликаться на вакансии, ходить на собеседования, ваш уровень английского - это все будет зависеть лично от вас.</p>
+                                    <p class="item__text">Трудоустройство во многом сильно зависит от конкретного человека.
+									На курсе вы получите все необходимые знания, которые помогут вам пройти техническую часть собеседования на позицию Junior QA,
+									но насколько хорошо вы усвоите материалы курса, как активно будете откликаться на вакансии и ходить на собеседования, насколько хороший
+									у вас английский - это все будет зависеть лично от вас.</p>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="item__logo">
@@ -1555,10 +1679,9 @@
                                         </svg>                                                                                                                                  
                                     </div>
                                     <h4 class="item__header">Гарантирует ли что-то сертификат ?</h4>
-                                    <p class="item__text">Сам сертификат вам ничего не гарантирует. Во время обучения на курсе,
-									ввашей главной целью должно быть: выполнение всех дз и практических заданий,
-									выполнение всех рекомендаций преподавателей по поиску работы, а не получение сертификата как такового. На собеседовании
-									вас будут спрашивать что вы знаете, а не какой у вас сертификат.</p>
+                                    <p class="item__text">Сам сертификат вам ничего не гарантирует. Во время обучения на курсе вашей главной целью должно быть
+									выполнение всех дз и практических заданий, выполнение всех рекомендаций преподавателей по поиску работы,
+									а не получение сертификата как такового. На собеседовании вас будут спрашивать, что вы знаете, а не какой у вас сертификат.</p>
                                 </div>
                                 <!-- <div class="swiper-slide">
                                     <div class="item__logo">
@@ -1710,7 +1833,7 @@
         </footer>
     </div>
     <a href="#" class="scrollup">|</a>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="/dist/js/lightbox-plus-jquery.js"></script>
     <script src="./script.js"></script>
