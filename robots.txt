@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /#reviews
 Host: https://rocket-science.pro/
 Sitemap: https://rocket-science.pro/sitemap.xml
 
