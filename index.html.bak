@@ -217,7 +217,7 @@
                                     </div>
                                     <h4 class="item__header">Удобное расписание и онлайн-формат обучения</h4>
                                     <p class="item__text">Занятия проходят по выходным с 9:00 до 12:00. Вам не придется нагружать мозг
-                                        после тяжелого рабочего дня.</p>
+                                        после тяжелого рабочего дня</p>
                                 </div>
                             </li>
                             <li class="advantages__item">
@@ -348,7 +348,7 @@
                                             <li class="item__list-item">Что такое баг</li>
                                             <li class="item__list-item">Какие бывают источники ожидаемого результата
                                             </li>
-                                            <li class="item__list-item">Как выглядит и кто пишет спецификацию</li>
+                                            <li class="item__list-item">Как выглядит спецификация (спека) и кто ее пишет</li>
                                             <li class="item__list-item">Что делать если в спеке нашли баг</li>
                                             <li class="item__list-item">Какая разница между понятиями QA и QC</li>
                                             <li class="item__list-item">Вопросы для закрепления</li>
@@ -941,7 +941,6 @@
                                             <img src="./avatars/natasha_pahirko.png" alt="natasha_pahirko" title="natasha_pahirko">
                                         </div>
                                         <div class="item__link">
-                                            <h4 class="item__header">
                                             <h4 class="item__header">
                                                 <span>Наташа Пахирко</span>
                                             </h4>
