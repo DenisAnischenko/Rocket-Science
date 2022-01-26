@@ -410,13 +410,12 @@
                                     </div>
                                     <div class="item__body">
                                         <ul class="item__list">
-                                            <li class="item__list-item">Что такое баг репорт и зачем он нужен</li>
+                                            <li class="item__list-item">Что такое bug report и зачем он нужен</li>
                                             <li class="item__list-item">Что нужно сделать, прежде чем завести bug report</li>
-                                            <li class="item__list-item">Из чего состоит баг-репорт</li>
-                                            <li class="item__list-item">Плохие и хорошие практики по оформлению баг-репорта</li>
-                                            <li class="item__list-item">На основе чего можно определить приоритет бага</li>
-                                            <li class="item__list-item">Понятия Priority и Severity</li>
-                                            <li class="item__list-item">Как правильно написать комментарий о проверке бага</li>
+                                            <li class="item__list-item">Как правильно оформить bug report</li>
+                                            <li class="item__list-item">Как определить приоритет бага ? Что такое priority и severity</li>
+                                            <li class="item__list-item">Оформляем первый bug report. Рекомендации по хорошей практике оформления</li>
+                                            <li class="item__list-item">Комментарии к bug report</li>
                                             <li class="item__list-item">Вопросы для закрепления</li>
                                         </ul>
                                     </div>
@@ -446,8 +445,9 @@
                                     <div class="item__body">
                                         <ul class="item__list">
                                             <li class="item__list-item">Что такое жизненный цикл бага</li>
-                                            <li class="item__list-item">Что такое статус бага</li>
-                                            <li class="item__list-item">Дополнительные статусы бага</li>
+                                            <li class="item__list-item">Какие бывают статусы бага и о чем они могут рассказать</li>
+                                            <li class="item__list-item">Как узнать статус бага в Jira</li>
+											<li class="item__list-item">Различные примеры жизненных циклов бага</li>
                                             <li class="item__list-item">Пример жизненного цикла бага на реальном проекте</li>
                                             <li class="item__list-item">Вопросы для закрепления</li>
                                         </ul>
