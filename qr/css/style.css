@@ -252,6 +252,7 @@ html body .container .intro__btn {
   -webkit-justify-content: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  padding-bottom: 30px;
 }
 
 html body .container .intro__btn .to__instagram {
