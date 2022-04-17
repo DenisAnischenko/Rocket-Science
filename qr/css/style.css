@@ -179,7 +179,7 @@ html body .container .intro__logo {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 1200px) and (orientation: landscape) {
   html body .container .intro__logo {
-    padding-top: 200px;
+    padding-top: 240px;
   }
 }
 
