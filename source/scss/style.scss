@@ -1,49 +1,73 @@
 @import "null";
+
 //__________________________Fonts__________________________
 @font-face {
   font-family: 'FuturaBookC';
-  src: url('../../fonts/futurabookc.eot'); /* IE 9 Compatibility Mode */
-  src: url('../../fonts/futurabookc.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-  url('../../fonts/futurabookc.woff2') format('woff2'), /* Super Modern Browsers */
-  url('../../fonts/futurabookc.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-  url('../../fonts/futurabookc.ttf') format('truetype'), /* Safari, Android, iOS */
-  url('../../fonts/futurabookc.svg#futurabookc') format('svg'); /* Chrome < 4, Legacy iOS */
+  src: url('../../fonts/futurabookc.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('../../fonts/futurabookc.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('../../fonts/futurabookc.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../../fonts/futurabookc.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('../../fonts/futurabookc.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../../fonts/futurabookc.svg#futurabookc') format('svg');
+  /* Chrome < 4, Legacy iOS */
 }
+
 @font-face {
-  font-family:"DeathStar";
+  font-family: "DeathStar";
   src: url('../../fonts/death_Star.eot?') format("eot"),
-  url("../../fonts/death_Star.woff") format("woff"),
-  url("../../fonts/death_Star.ttf") format("truetype"),
-  url("../../fonts/death_Star.svg#DeathStar") format("svg");
-  font-style:normal;
+    url("../../fonts/death_Star.woff") format("woff"),
+    url("../../fonts/death_Star.ttf") format("truetype"),
+    url("../../fonts/death_Star.svg#DeathStar") format("svg");
+  font-style: normal;
 }
+
 @font-face {
   font-family: 'FuturaDemiC';
-  src: url('../../fonts/futurademic.eot'); /* IE 9 Compatibility Mode */
-  src: url('../../fonts/futurademic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-  url('../../fonts/futurademic.woff2') format('woff2'), /* Super Modern Browsers */
-  url('../../fonts/futurademic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-  url('../../fonts/futurademic.ttf') format('truetype'), /* Safari, Android, iOS */
-  url('../../fonts/futurademic.svg#futurademic') format('svg'); /* Chrome < 4, Legacy iOS */
+  src: url('../../fonts/futurademic.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('../../fonts/futurademic.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('../../fonts/futurademic.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../../fonts/futurademic.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('../../fonts/futurademic.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../../fonts/futurademic.svg#futurademic') format('svg');
+  /* Chrome < 4, Legacy iOS */
 }
+
 @font-face {
   font-family: 'Futura PT';
   src: local('Futura PT Bold'), local('Futura-PT-Bold'),
-  url('../../fonts/FuturaPT-Bold.woff2') format('woff2'),
-  url('../../fonts/FuturaPT-Bold.woff') format('woff'),
-  url('../../fonts/FuturaPT-Bold.ttf') format('truetype');
+    url('../../fonts/FuturaPT-Bold.woff2') format('woff2'),
+    url('../../fonts/FuturaPT-Bold.woff') format('woff'),
+    url('../../fonts/FuturaPT-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'FuturaLightC';
-  src: url('../../fonts/futuralightc.eot'); /* IE 9 Compatibility Mode */
-  src: url('../../fonts/futuralightc.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-  url('../../fonts/futuralightc.woff2') format('woff2'), /* Super Modern Browsers */
-  url('../../fonts/futuralightc.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-  url('../../fonts/futuralightc.ttf') format('truetype'), /* Safari, Android, iOS */
-  url('../../fonts/futuralightc.svg#futuralightc') format('svg'); /* Chrome < 4, Legacy iOS */
+  src: url('../../fonts/futuralightc.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('../../fonts/futuralightc.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+    url('../../fonts/futuralightc.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../../fonts/futuralightc.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+    url('../../fonts/futuralightc.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../../fonts/futuralightc.svg#futuralightc') format('svg');
+  /* Chrome < 4, Legacy iOS */
 }
+
 //__________________________Colors__________________________
 $background-color: #081F27;
 $background-highlight-color: #ffffff;
@@ -53,88 +77,104 @@ $text-blue-color: #072D3F;
 $text-color: #ffffff;
 $text-color-grey: #cccccc;
 $main-yellow: #E4C85A;
-$main-yellow-rgb: 244, 145, 30;
+$main-yellow-rgb: 244,
+145,
+30;
 $second-yellow: #F5E098;
+
 //__________________________Mixins__________________________
 @mixin _1680 {
   @media (max-width: 1680px) {
     @content;
   }
 }
+
 @mixin _1200 {
-  @media (max-width: 1200px){
+  @media (max-width: 1200px) {
     @content;
   }
 }
+
 @mixin _992 {
-  @media (max-width: 992px){
+  @media (max-width: 992px) {
     @content;
   }
 }
+
 @mixin _768 {
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     @content;
   }
 }
+
 @mixin _576 {
-  @media (max-width: 576px){
+  @media (max-width: 576px) {
     @content;
   }
 }
+
 @mixin _480 {
-  @media (max-width: 480px){
+  @media (max-width: 480px) {
     @content;
   }
 }
-@mixin _320{
-  @media (max-width: 320px){
+
+@mixin _320 {
+  @media (max-width: 320px) {
     @content;
   }
 }
+
 //__________________________Patterns__________________________
-%bg-blur{
+%bg-blur {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(30px);
 }
-%logo{
+
+%logo {
   font-family: "DeathStar", sans-serif;
   font-size: 26px;
   line-height: 30px;
   letter-spacing: 0.06em;
   color: $text-color;
 }
-%intro-title{
+
+%intro-title {
   font-family: "DeathStar", sans-serif;
   font-size: 150px;
   line-height: 150px;
   letter-spacing: 0.02em;
-  
-  @include _1200{
 
-  }
-  @include _992{
+  @include _1200 {}
+
+  @include _992 {
     font-size: 125px;
     line-height: 150px
   }
-  @include _768{
+
+  @include _768 {
     font-size: 100px;
     line-height: 140px;
     margin-bottom: 0;
   }
-  @include _576{
+
+  @include _576 {
     font-size: 75px;
     line-height: 75px;
   }
-  @include _480{
+
+  @include _480 {
     font-size: 55px;
     line-height: 70px;
   }
-  @include _320{
+
+  @include _320 {
     font-size: 40px;
     line-height: 40px;
   }
 }
-%intro-subtitle{
+
+%intro-subtitle {
   font-family: 'FuturaDemiC', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -144,27 +184,33 @@ $second-yellow: #F5E098;
   text-transform: uppercase;
   color: $main-yellow;
   margin-bottom: 36px;
-  @include _992{
+
+  @include _992 {
     font-size: 30px;
   }
-  @include _768{
+
+  @include _768 {
     font-size: 24px;
     margin-bottom: 70px;
   }
-  @include _576{
+
+  @include _576 {
     font-size: 18px;
     margin-bottom: 0;
   }
-  @include _480{
+
+  @include _480 {
     font-size: 13px;
     margin-bottom: 10px;
   }
+
   @include _320 {
     font-size: 9.5px;
     margin-bottom: 12px;
   }
 }
-%block-header{
+
+%block-header {
   font-family: 'Futura PT', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -172,38 +218,42 @@ $second-yellow: #F5E098;
   line-height: 50px;
   color: $main-yellow;
   margin-bottom: 120px;
-  @include _992{
+
+  @include _992 {
     font-size: 48px;
     line-height: 50px;
   }
-  @include _768{
+
+  @include _768 {
     font-size: 48px;
     line-height: 50px;
     margin-bottom: 50px;
     padding-top: 70px;
   }
-  @media only screen
-  and (min-device-width : 320px)
-  and (max-device-width : 1200px)
-  and (orientation : landscape) {
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 1200px) and (orientation : landscape) {
     padding-top: 0;
     margin-bottom: 30px;
   }
-  @include _576{
+
+  @include _576 {
     font-size: 36px;
     line-height: 36px;
     margin-bottom: 40px;
   }
-  @include _320{
+
+  @include _320 {
     font-size: 30px;
     line-height: 30px;
     margin-bottom: 30px;
   }
 }
-%block-border{
+
+%block-border {
   border: 1px solid rgba(255, 255, 255, 0.6);
 }
-%yellow-btn{
+
+%yellow-btn {
   align-items: center;
   padding: 26px 48px;
   background: $second-yellow linear-gradient($second-yellow, $main-yellow);
@@ -217,114 +267,144 @@ $second-yellow: #F5E098;
   transition: .3s;
   overflow-x: hidden;
   @extend %btn-animation;
-  &:hover{
+
+  &:hover {
     transform: scale(1.05);
   }
-  &:active{
+
+  &:active {
     background-color: $main-yellow;
   }
-  @include _576{
+
+  @include _576 {
     padding: 20px 40px;
     font-size: 16px;
   }
-  @include _480{
+
+  @include _480 {
     padding: 14px 30px;
     font-size: 14px;
   }
 }
-%second-font-style{
+
+%second-font-style {
   font-family: 'FuturaLightC', sans-serif;
   font-size: 24px;
   line-height: 26px;
   color: $text-color-grey;
-  @include _768{
+
+  @include _768 {
     font-size: 20px;
   }
-  @include _576{
+
+  @include _576 {
     font-size: 18px;
   }
-  @include _320{
+
+  @include _320 {
     font-size: 16px;
   }
 }
-%h4-header{
+
+%h4-header {
   font-family: 'FuturaDemiC', sans-serif;
   font-weight: 600;
   font-size: 28px;
   line-height: 33px;
-  @include _768{
+
+  @include _768 {
     font-size: 26px;
     line-height: 30px;
   }
-  @include _576{
+
+  @include _576 {
     font-size: 24px;
     line-height: 28px;
   }
-  @include _320{
+
+  @include _320 {
     font-size: 20px;
     line-height: 20px;
   }
 }
-%margin-blocks{
+
+%margin-blocks {
   margin-bottom: 250px;
-  @include _1200{
+
+  @include _1200 {
     margin-bottom: 200px;
   }
-  @include _992{
+
+  @include _992 {
     margin-bottom: 150px;
   }
-  @include _768{
+
+  @include _768 {
     margin-bottom: 100px;
   }
-  @include _576{
+
+  @include _576 {
     margin-bottom: 50px;
   }
 }
-%logo-circle{
+
+%logo-circle {
   flex-shrink: 0;
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  @include _576{
+
+  @include _576 {
     width: 80px;
     height: 80px;
   }
-  @include _320{
+
+  @include _320 {
     width: 60px;
     height: 60px;
   }
 }
-%slider-btn{
+
+%slider-btn {
+
   .swiper-button-prev::after,
-  .swiper-button-next::after{
+  .swiper-button-next::after {
     color: $second-yellow;
     font-size: 35px;
     font-weight: bold;
     transition: .3s;
-    @include _320{
+
+    @include _320 {
       opacity: .2;
     }
   }
-  .swiper-button-prev{
+
+  .swiper-button-prev {
     left: 0;
-    &:hover::after{
+
+    &:hover::after {
       transform: scale(1.2);
     }
-    &:active::after{
+
+    &:active::after {
       color: $main-yellow;
     }
   }
-  .swiper-button-next{
+
+  .swiper-button-next {
     right: 0;
-    &:hover::after{
+
+    &:hover::after {
       transform: scale(1.2);
     }
-    &:active::after{
+
+    &:active::after {
       color: $main-yellow;
     }
   }
 }
-%btn-animation{
+
+%btn-animation {
   .flare {
     position: absolute;
     top: 0;
@@ -336,16 +416,19 @@ $second-yellow: #F5E098;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
     animation: flareAnimation 2s infinite linear;
   }
+
   @keyframes flareAnimation {
     0% {
-        left: -150%;
+      left: -150%;
     }
+
     100% {
-        left: 150%;
+      left: 150%;
     }
   }
 }
-%btn-pulse{
+
+%btn-pulse {
   transform: scale(1);
   animation-name: anim_pulse;
   animation-duration: 2s;
@@ -353,34 +436,39 @@ $second-yellow: #F5E098;
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
+
   @keyframes anim_pulse {
-    0%{
+    0% {
       opacity: 1;
     }
-    10%{
+
+    10% {
       transform: scale(1.04);
     }
-    20%{
+
+    20% {
       transform: scale(1);
     }
-    50%{
+
+    50% {
       transform: scale(1);
     }
-    80%{
+
+    80% {
       transform: scale(1);
     }
-    90%{
+
+    90% {
       transform: scale(1.04);
     }
+
     100% {
       transform: scale(1);
       opacity: 1;
     }
   }
-  @media only screen
-  and (min-device-width : 320px)
-  and (max-device-width : 1200px)
-  and (orientation : landscape){
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 1200px) and (orientation : landscape) {
     transform: scale(1);
     animation-name: anim_pulse;
     animation-duration: 2s;
@@ -388,25 +476,32 @@ $second-yellow: #F5E098;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
+
     @keyframes anim_pulse {
-      0%{
+      0% {
         opacity: 1;
       }
-      10%{
+
+      10% {
         transform: scale(1.02);
       }
-      20%{
+
+      20% {
         transform: scale(1);
       }
-      50%{
+
+      50% {
         transform: scale(1);
       }
-      80%{
+
+      80% {
         transform: scale(1);
       }
-      90%{
+
+      90% {
         transform: scale(1.02);
       }
+
       100% {
         transform: scale(1);
         opacity: 1;
@@ -414,13 +509,15 @@ $second-yellow: #F5E098;
     }
   }
 }
+
 //__________________________BODY, WRAPPER, CONTAINER, CONTENT__________________________
-body{  
+body {
   background-color: $background-color;
   font-family: 'FuturaBookC', sans-serif;
   color: $text-color;
   overflow-x: hidden;
 }
+
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -430,48 +527,56 @@ body{
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  @include _1680{
+
+  @include _1680 {
     background-size: contain;
   }
-  @include _576{
+
+  @include _576 {
     background-position: 0 45px;
   }
-  @include _320{
+
+  @include _320 {
     background-position: 0 50px;
   }
 }
-.container{
+
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
-.content{
+
+.content {
   flex: 1 1 auto;
   background: url(../../images/pattern-bg.png);
   background-repeat: repeat-y;
   background-position: top;
   background-size: cover;
-  @include _768{
+
+  @include _768 {
     padding-top: 100px;
   }
-  @media only screen
-  and (min-device-width : 320px)
-  and (max-device-width : 768px)
-  and (orientation : landscape) {
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 768px) and (orientation : landscape) {
     padding-top: 0;
   }
-  @include _480{
+
+  @include _480 {
     background: url(../../images/pattern-bg-small.svg) repeat-y;
   }
 }
+
 //__________________________HEADER__________________________
-.header{
+.header {
   @extend %bg-blur;
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-  @media (orientation: landscape){
+
+  @media (orientation: landscape) {
     margin-bottom: 20px;
   }
-  @include _768{
+
+  @include _768 {
     margin-bottom: 60px;
     position: fixed;
     top: 0;
@@ -479,58 +584,65 @@ body{
     width: 100%;
     z-index: 999;
   }
-  @media only screen
-  and (min-device-width : 320px)
-  and (max-device-width : 768px)
-  and (orientation : landscape) {
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 768px) and (orientation : landscape) {
     margin-bottom: 0;
     position: static;
   }
-  @include _576{
+
+  @include _576 {
     margin-bottom: 30px;
-    
-  }
-  @include _320{
 
   }
-  .header__container{
-    max-width: 100vw; 
+
+  @include _320 {}
+
+  .header__container {
+    max-width: 100vw;
     padding: 0 100px;
-    @include _1200{
-      max-width: 1200px; 
+
+    @include _1200 {
+      max-width: 1200px;
       padding: 0 15px;
     }
-    .header__row{
+
+    .header__row {
       display: flex;
       align-items: center;
       justify-content: space-between;
       height: 70px;
-      .header__logo{
-        a{
+
+      .header__logo {
+        a {
           @extend %logo;
         }
       }
-      .header__menu{
-        .header__btn{
+
+      .header__menu {
+        .header__btn {
           width: 48px;
           height: 48px;
           background-color: transparent;
           overflow: hidden;
-          svg{
+
+          svg {
             width: 100%;
             height: 100%;
-            @media(min-width: 1200px){
-              &:hover{
-                path{
+
+            @media(min-width: 1200px) {
+              &:hover {
+                path {
                   transition: .3s;
                   stroke: $main-yellow;
                 }
               }
             }
-            @include _1200{
+
+            @include _1200 {
               height: 100%;
-              &:active{
-                path{
+
+              &:active {
+                path {
                   transition: .3s;
                   stroke: $main-yellow;
                 }
@@ -539,7 +651,8 @@ body{
           }
         }
       }
-      .menu__burger{
+
+      .menu__burger {
         position: absolute;
         z-index: 90;
         background-color: $text-blue-color;
@@ -548,52 +661,63 @@ body{
         height: auto;
         top: 0;
         right: -600px;
-        @include _768{
+
+        @include _768 {
           width: 70%;
           right: -70%;
         }
-        @include _576{
+
+        @include _576 {
           width: 100%;
           right: -100%;
         }
-        .burger__row{
+
+        .burger__row {
           display: flex;
           flex-direction: column;
-          .burger__top{
+
+          .burger__top {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 15px;
             border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-            .burger__header{
+
+            .burger__header {
               font-family: "DeathStar", sans-serif;
               font-size: 26px;
               line-height: 30px;
               letter-spacing: 0.06em;
             }
-            .burger__btn{
+
+            .burger__btn {
               width: 40px;
               height: 40px;
               background-color: transparent;
               overflow: hidden;
               transition: .3s;
-              svg{
+
+              svg {
                 width: 100%;
                 height: 100%;
               }
-              @media(min-width: 1200px){
-                &:hover{
+
+              @media(min-width: 1200px) {
+                &:hover {
                   transform: scale(1.1);
-                  path{
+
+                  path {
                     transition: .3s;
                     stroke: $main-yellow;
                   }
                 }
               }
-              @include _1200{
+
+              @include _1200 {
                 height: 100%;
-                &:active{
-                  path{
+
+                &:active {
+                  path {
                     transition: .3s;
                     stroke: $main-yellow;
                   }
@@ -601,24 +725,30 @@ body{
               }
             }
           }
-          .burger__list{
+
+          .burger__list {
             width: 100%;
-            .burger__item{
+
+            .burger__item {
               padding: 20px 0 20px 20px;
               border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-              a{
+
+              a {
                 display: block;
                 @extend %h4-header;
                 color: $text-color;
                 transition: .3s;
-                @media(min-width: 1200px){
-                  &:hover{
+
+                @media(min-width: 1200px) {
+                  &:hover {
                     color: $main-yellow;
                   }
                 }
-                @include _1200{
+
+                @include _1200 {
                   height: 100%;
-                  &:active{
+
+                  &:active {
                     color: $main-yellow;
                   }
                 }
@@ -627,223 +757,267 @@ body{
           }
         }
       }
-      .menu__burger-opened{
+
+      .menu__burger-opened {
         right: 0;
       }
     }
   }
 }
+
 //__________________________INTRO__________________________
-.intro{
- margin-bottom: 150px;
- 
- @include _768{
-  margin-bottom: 70px;
- }
- @include _480{
-   margin-bottom: 40px;
- }
- @include _320{
-   margin-bottom: 30px;
- }
- .intro__container{
-  max-width: 100vw; 
-  padding: 0 100px;
-  @include _1200{
-    max-width: 1200px; 
-    padding: 0 15px;
+.intro {
+  margin-bottom: 150px;
+
+  @include _768 {
+    margin-bottom: 70px;
   }
-  .intro__row{
-    display: flex;
-    justify-content: flex-start;
-    height: calc(100vh - 90px);
-    @media only screen
-     and (min-device-width : 320px)
-     and (max-device-width : 992px)
-     and (orientation : landscape) {
-       height: calc(100% - 90px);
-   }
-    @include _320{
-      display: block;
+
+  @include _480 {
+    margin-bottom: 40px;
+  }
+
+  @include _320 {
+    margin-bottom: 30px;
+  }
+
+  .intro__container {
+    max-width: 100vw;
+    padding: 0 100px;
+
+    @include _1200 {
+      max-width: 1200px;
+      padding: 0 15px;
     }
-    .intro__body{
-      flex: 0 1 600px;
-      height: 100%;
+
+    .intro__row {
       display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      @include _1680{
-        flex: 0 1 40%;
+      justify-content: flex-start;
+      height: calc(100vh - 90px);
+
+      @media only screen and (min-device-width : 320px) and (max-device-width : 992px) and (orientation : landscape) {
+        height: calc(100% - 90px);
       }
-      @include _768{
-        flex: 0 1 100%;
+
+      @include _320 {
+        display: block;
       }
-      @include _480{
-        justify-content: space-around;
-      }
-      .intro__title{
-        @extend %intro-title;
-      }
-      .intro__subtitle{
-        @extend %intro-subtitle;
-      }
-      .intro__counter{
-        width: 224px;
-        margin: 0 auto 20px auto;
-        @include _768{
-         margin: 0 auto 60px auto;
+
+      .intro__body {
+        flex: 0 1 600px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @include _1680 {
+          flex: 0 1 40%;
         }
-        @include _576{
-         margin: 0 auto 30px auto;
+
+        @include _768 {
+          flex: 0 1 100%;
         }
-        @include _320{
-          text-align: center;
-          margin-bottom: 10px;
+
+        @include _480 {
+          justify-content: space-around;
         }
-        .counter-text{
+
+        .intro__title {
+          @extend %intro-title;
+        }
+
+        .intro__subtitle {
           @extend %intro-subtitle;
-          text-align: center;
-          font-size: 18px;
-          line-height: 28px;
-          letter-spacing: 0.03em;
-          margin-bottom: 3px;
-          @include _320{
-            font-size: 16px;
-            line-height: 16px;
-          }
         }
-        .counter-link{
-          background: linear-gradient(85.99deg, rgba(253, 253, 253, 0.03) 0.95%, rgba(253, 253, 253, 0.3) 53.47%, rgba(253, 253, 253, 0) 107.84%);
-          text-align: center;
-          a{
-            display: block;
-            color: $text-color;
-            padding: 5px;
-            span{
-              &:first-child{
-               padding-left: 10px;
-               font-family: 'DeathStar', sans-serif;
-               font-size: 40px;
-               line-height: 46px;
-               letter-spacing: 0.215em;
-              }
-              &:last-child{
-               font-family: FuturaDemiC;
-               font-weight: 600;
-               font-size: 14px;
-               line-height: 19px;
-               letter-spacing: 0.075em;
-               text-transform: uppercase;
+
+        .intro__counter {
+          width: 224px;
+          margin: 0 auto 20px auto;
+
+          @include _768 {
+            margin: 0 auto 60px auto;
+          }
+
+          @include _576 {
+            margin: 0 auto 30px auto;
+          }
+
+          @include _320 {
+            text-align: center;
+            margin-bottom: 10px;
+          }
+
+          .counter-text {
+            @extend %intro-subtitle;
+            text-align: center;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0.03em;
+            margin-bottom: 3px;
+
+            @include _320 {
+              font-size: 16px;
+              line-height: 16px;
+            }
+          }
+
+          .counter-link {
+            background: linear-gradient(85.99deg, rgba(253, 253, 253, 0.03) 0.95%, rgba(253, 253, 253, 0.3) 53.47%, rgba(253, 253, 253, 0) 107.84%);
+            text-align: center;
+
+            a {
+              display: block;
+              color: $text-color;
+              padding: 5px;
+
+              span {
+                &:first-child {
+                  padding-left: 10px;
+                  font-family: 'DeathStar', sans-serif;
+                  font-size: 40px;
+                  line-height: 46px;
+                  letter-spacing: 0.215em;
+                }
+
+                &:last-child {
+                  font-family: FuturaDemiC;
+                  font-weight: 600;
+                  font-size: 14px;
+                  line-height: 19px;
+                  letter-spacing: 0.075em;
+                  text-transform: uppercase;
+                }
               }
             }
           }
         }
-      }
-      .intro__links{
-        padding-bottom: 20px;
-        @include _768{
-          text-align: center;
-        }
-        .intro__text{
-          font-family: 'FuturaBookC', sans-serif;
-          font-size: 30px;
-          line-height: 40px;
-          color: #CFCFCF;
-          margin-bottom: 15px;
-          @include _768{
-            font-size: 25px;
-            line-height: 35px;
+
+        .intro__links {
+          padding-bottom: 20px;
+
+          @include _768 {
+            text-align: center;
           }
-          @include _320{
-            font-size: 20px;
-            line-height: 20px;
+
+          .intro__text {
+            font-family: 'FuturaBookC', sans-serif;
+            font-size: 30px;
+            line-height: 40px;
+            color: #CFCFCF;
+            margin-bottom: 15px;
+
+            @include _768 {
+              font-size: 25px;
+              line-height: 35px;
+            }
+
+            @include _320 {
+              font-size: 20px;
+              line-height: 20px;
+            }
           }
-        }
-        .intro__btn{
-          display: flex;
-          justify-content: space-between;
-          width: 85%;
-          @include _992{
-           width: 100%;
-          }
-          @include _768{
-            flex-direction: column;
-            align-items: center;
-          }
-          button{
-            background-color: transparent;
-            border-radius: 40px;
-            overflow: hidden;
-            transition: .3s;
-            width: 245px;
-            height: 71px;
-            position: relative;
-            border-radius: 40px;
-				    overflow: hidden;
+
+          .intro__btn {
             display: flex;
-            align-items: center;
-            justify-content: center;
-            &:hover{
-              transform: scale(1.05);
+            justify-content: space-between;
+            width: 85%;
+
+            @include _992 {
+              width: 100%;
             }
-            svg{
-              margin-right: 10px;
+
+            @include _768 {
+              flex-direction: column;
+              align-items: center;
             }
-            span{
-              font-family: 'FuturaBookC', sans-serif;
-              font-size: 36px;
-				      line-height: 41px;
-				      color: #FFFFFF;
+
+            button {
+              background-color: transparent;
+              border-radius: 40px;
+              overflow: hidden;
+              transition: .3s;
+              width: 245px;
+              height: 71px;
+              position: relative;
+              border-radius: 40px;
+              overflow: hidden;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              &:hover {
+                transform: scale(1.05);
+              }
+
+              svg {
+                margin-right: 10px;
+              }
+
+              span {
+                font-family: 'FuturaBookC', sans-serif;
+                font-size: 36px;
+                line-height: 41px;
+                color: #FFFFFF;
+              }
+
+              @extend %btn-animation;
             }
-           @extend %btn-animation;
-          }
-          #telegram__btn{
-            background: linear-gradient(36.1deg, #1E86C7 17.56%, #37ADE1 82.2%);
-          }
-          #instagram__btn{
-            background: linear-gradient(96.51deg, #5358C5 1.64%, #6542B7 24.54%, #A3408F 65.08%, #F7D37F 98.51%);
-          }
-          button:first-child{
-            @include _768{
-              margin-bottom: 20px;
+
+            #telegram__btn {
+              background: linear-gradient(36.1deg, #1E86C7 17.56%, #37ADE1 82.2%);
             }
-            @include _576{
-              margin-bottom: 10px;
+
+            #instagram__btn {
+              background: linear-gradient(96.51deg, #5358C5 1.64%, #6542B7 24.54%, #A3408F 65.08%, #F7D37F 98.51%);
+            }
+
+            button:first-child {
+              @include _768 {
+                margin-bottom: 20px;
+              }
+
+              @include _576 {
+                margin-bottom: 10px;
+              }
             }
           }
         }
       }
     }
   }
- }
 }
+
 //__________________________PRICES__________________________
-.prices{
- margin-bottom: 250px;
- position: relative;
- @include _1200{
-   margin-bottom: 200px;
- }
- @include _768{
-   margin-bottom: 100px;
-   padding-top: 70px;
- }
- @media only screen
-  and (min-device-width : 320px)
-  and (max-device-width : 768px)
-  and (orientation : landscape) {
+.prices {
+  margin-bottom: 250px;
+  position: relative;
+
+  @include _1200 {
+    margin-bottom: 200px;
+  }
+
+  @include _768 {
+    margin-bottom: 100px;
+    padding-top: 70px;
+  }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 768px) and (orientation : landscape) {
     padding-top: 0;
   }
- @include _576{
-   margin-bottom: 60px;
- }
- @include _480{
-   margin-bottom: 30px;
- }
- @include _320{
-   margin-bottom: 0;
- }
-  .prices__row{
+
+  @include _576 {
+    margin-bottom: 60px;
+  }
+
+  @include _480 {
+    margin-bottom: 30px;
+  }
+
+  @include _320 {
+    margin-bottom: 0;
+  }
+
+  .prices__row {
     background-image: url(../../images/Vector5.png);
     background-repeat: no-repeat;
     background-position: top;
@@ -851,97 +1025,114 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    @include _768{
-      
-    }
-    @include _576{
+
+    @include _768 {}
+
+    @include _576 {
       background-image: url(../../images/Vector6.png);
       background-repeat: no-repeat;
       background-position: top;
       background-size: contain;
-      
+
     }
-    @include _480{
-      
-    }
-    .prices__body{
+
+    @include _480 {}
+
+    .prices__body {
       flex: 0 1 442px;
       padding-top: 165px;
       padding-bottom: 45px;
       padding-right: 130px;
       padding-left: 0px;
-      @include _576{
+
+      @include _576 {
         padding-right: 30px;
         padding-left: 30px;
       }
-      @include _480{
+
+      @include _480 {
         padding-right: 5em;
         padding-left: 5em;
         padding-top: 8em;
       }
-      @include _320{
+
+      @include _320 {
         padding-top: 100px;
       }
-      .prices__content{
-        .prices__text{
+
+      .prices__content {
+        .prices__text {
           display: flex;
           flex-direction: column;
           align-items: center;
           align-self: flex-end;
-          .prices__rate{
+
+          .prices__rate {
             text-align: center;
             margin-bottom: 24px;
-            @include _480{
+
+            @include _480 {
               margin-bottom: 10px;
             }
-            @include _320{
+
+            @include _320 {
               margin-bottom: 8px;
             }
-            span:first-child{
+
+            span:first-child {
               font-family: 'Futura PT', sans-serif;
               font-size: 60px;
               line-height: 50px;
               color: $second-yellow;
-              @include _480{
+
+              @include _480 {
                 font-size: 40px;
                 line-height: 30px;
               }
-              @include _320{
+
+              @include _320 {
                 font-size: 30px;
                 line-height: 20px;
               }
             }
-            span:nth-child(2){
+
+            span:nth-child(2) {
               font-size: 36px;
               line-height: 40.75px;
               color: $text-color-grey;
-              @include _480{
+
+              @include _480 {
                 font-size: 20px;
                 line-height: 20px;
               }
-              @include _320{
+
+              @include _320 {
                 font-size: 18px;
                 line-height: 16px;
               }
             }
-            p{
+
+            p {
               font-family: 'FuturaLightC', sans-serif;
               margin-top: 17px;
               font-size: 14px;
               line-height: 15px;
               color: $text-color-grey;
-              @include _480{
+
+              @include _480 {
                 margin-top: 10px;
                 font-size: 10px;
                 line-height: 12px;
               }
-              @include _320{
+
+              @include _320 {
                 margin-top: 8px;
                 font-size: 10px;
                 line-height: 12px;
               }
             }
-            &:after{
+
+            &:after {
               content: '';
               display: block;
               height: .5px;
@@ -952,19 +1143,24 @@ body{
               margin-right: auto;
             }
           }
-          .prices__weeks{
+
+          .prices__weeks {
             margin-bottom: 19px;
-            @include _480{
+
+            @include _480 {
               margin-bottom: 10px;
             }
-            div{
+
+            div {
               display: flex;
               align-items: center;
-              span:nth-child(2){
+
+              span:nth-child(2) {
                 font-size: 36px;
                 line-height: 41px;
                 margin-left: 22px;
-                @include _480{
+
+                @include _480 {
                   font-size: 24px;
                   line-height: 24px;
                   margin-left: 10px;
@@ -972,26 +1168,30 @@ body{
               }
             }
           }
-          .prices__description{
+
+          .prices__description {
             font-family: 'FuturaLightC', sans-serif;
             font-size: 24px;
             line-height: 26px;
             text-align: center;
             color: $text-color-grey;
             margin-bottom: 50px;
-            @include _480{
+
+            @include _480 {
               font-size: 20px;
               line-height: 20px;
               margin-bottom: 20px;
             }
-            @include _320{
+
+            @include _320 {
               font-size: 18px;
               line-height: 18px;
               margin-bottom: 12px;
             }
           }
-          .prices__button{
-            button{
+
+          .prices__button {
+            button {
               @extend %yellow-btn;
               position: relative;
               @extend %btn-pulse;
@@ -1002,728 +1202,901 @@ body{
       }
     }
   }
-  
+
 }
+
 //__________________________ADVANTAGES__________________________
-.advantages{
- @extend %margin-blocks;
- .advantages__header{
-   @extend %block-header;
- }
- .advantages__row{
-   .advantages__list{
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     grid-gap: 40px 30px;
-     @include _1200 {
-       grid-template-columns: repeat(3, 1fr);
-       grid-gap: 30px 20px;
-     }
-     @include _992 {
-       grid-template-columns: repeat(2, 1fr);
-       grid-gap: 40px 30px;
-     }
-     @include _768 {
-       grid-template-columns: repeat(2, 1fr);
-       grid-gap: 30px 20px;
-     }
-     @include _576 {
-       grid-template-columns: repeat(1, 1fr);
-       grid-gap: 30px 20px;
-     }
-     @include _320 {
-       grid-template-columns: repeat(1, 1fr);
-       grid-gap: 20px 10px;
-     }
-     .advantages__item{
-       @extend %block-border;
-       @extend %bg-blur;
-       padding: 30px 30px 40px;
-       text-align: center;
-       @include _768{
-        padding: 20px;
-       }
-       @include _576{
-        padding: 15px;
-       }
-       @include _320{
-         padding: 10px;
-       }
-       .item__content{
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         .item__logo{
-           margin-bottom: 20px;
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           @include _320{
-             margin-bottom: 10px;
-           }
-           .dumbbell{
-             path{
-               fill: transparent;
-               stroke-width: 3px;
-             }
-           }
-           .chart{
-             
-           }
-           svg{
-             path{
-               fill: $second-yellow;
-               stroke: $second-yellow;
-               stroke-width: 0;
-             }
-           }
-         }
-         .item__header{
-           @extend %h4-header;
-           margin-bottom: 10px;
-         }
-         .item__text{
-           @extend %second-font-style;
-         }
-       }
-     }
-   }
- }
-}
-//__________________________COURSE_IN_PHONE__________________________
-.course{
- @extend %margin-blocks;
- .course__row{
-   display: flex;
-   flex-direction: column;
-   .course__header{
-     @extend %block-header;
-     @include _992{
-       line-height: 50px;
-     }
-     @include _768{
-       line-height: 50px;
-     }
-     @include _576{
-       line-height: 40px;
-     }
-     @include _320{
-       line-height: 30px;
-     }
-   }
-   .course__body{
-     display: flex;
-     flex-direction: column;
-     align-items: flex-start;
-     @include _576{
-       align-items: center;
-     }
-     .course__text{
-       @extend %second-font-style;
-       margin-bottom: 30px;
-     }
-     .course__btn{
-       @extend %yellow-btn;
-       position: relative;
-       @extend %btn-pulse;
-       overflow: hidden;
-     }
-   }
- }
-}
-//__________________________PROGRAM__________________________
-.program{
- @extend %margin-blocks;
- .program__header{
- @extend %block-header;
- }
- .program__row{
-   .program__list{
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     grid-gap: 30px;
-     @include _992{
-       grid-gap: 20px;
-     }
-     @include _768{
-      
-     }
-     @include _576{
-       grid-template-columns: repeat(1, 1fr);
-     }
-     .program__item{
-       @extend %block-border;
-       @extend %bg-blur;
-       padding: 30px;
-       &:last-child{
-        grid-column: 1 / span 2;
-        @include _576{
-          grid-column: 1 / span 1;
+.advantages {
+  @extend %margin-blocks;
+
+  .advantages__header {
+    @extend %block-header;
+  }
+
+  .advantages__row {
+    .advantages__list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 40px 30px;
+
+      @include _1200 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px 20px;
+      }
+
+      @include _992 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px 30px;
+      }
+
+      @include _768 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px 20px;
+      }
+
+      @include _576 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px 20px;
+      }
+
+      @include _320 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px 10px;
+      }
+
+      .advantages__item {
+        @extend %block-border;
+        @extend %bg-blur;
+        padding: 30px 30px 40px;
+        text-align: center;
+
+        @include _768 {
+          padding: 20px;
         }
-       }
-       @include _768{
-         padding: 25px;
-       }
-       @include _320{
-         padding: 10px;
-       }
-       .item__content{
-         display: flex;
-         flex-direction: column;
-         @include _576{
-           align-items: center;
-           flex-direction: column;
-         }
-         .item__top{
-           display: flex;
-           align-items: center;
-           margin-bottom: 30px;
-           @include _768{
-             flex-direction: column;
-           }
-           @include _576{
-             margin-bottom: 20px;
-           }
-           @include _480{
-             margin-bottom: 10px;
-           }
-           .item__logo{
-             margin-right: 30px;
-             position: relative;
-             align-self: center;
-             @include _992{
-              margin-right: 20px;
-             }
-             @include _768{
-               margin-right: 0;
-               margin-bottom: 20px;
-             }
-             @include _576{
-               margin-bottom: 10px;
-             }
-             svg{
-               width: 100px;
-               height: 100px;
-               @include _768{
-                 width: 80px;
-                 height: 80px;
-               }               
-             }
-           }
-           .item__header{
-             @extend %h4-header;
-             @include _768{
-               text-align: center;
-             }
-             @include _320{
-               margin-bottom: 10px;
-             }
-           }
-         }
-         .item__body{
-           align-self: flex-start;
-           .item__list{
-             .item__list-item{
-               @extend %second-font-style;
-               margin-bottom: 5px;
-               @include _480{
-                 margin-bottom: 0;
-               }
-               &:before{
-                 content: url("../../images/star-item.svg");
-                 margin-right: 5px;
-               }
-             }
-           }
-         }
-       }
-     }
-   }
- }
+
+        @include _576 {
+          padding: 15px;
+        }
+
+        @include _320 {
+          padding: 10px;
+        }
+
+        .item__content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .item__logo {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @include _320 {
+              margin-bottom: 10px;
+            }
+
+            .dumbbell {
+              path {
+                fill: transparent;
+                stroke-width: 3px;
+              }
+            }
+
+            .chart {}
+
+            svg {
+              path {
+                fill: $second-yellow;
+                stroke: $second-yellow;
+                stroke-width: 0;
+              }
+            }
+          }
+
+          .item__header {
+            @extend %h4-header;
+            margin-bottom: 10px;
+          }
+
+          .item__text {
+            @extend %second-font-style;
+          }
+        }
+      }
+    }
+  }
 }
-//__________________________REVIEWS__________________________
-.reviews{
- @extend %margin-blocks;
- .reviews__row{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin: 0 auto;
-   position: relative;
-   max-width: 970px;
-   .reviews__header{
-     @extend %block-header;
-   }
-   .swiper{
-     width: 100%;
-     @include _320{
-       width:300px;
-     }
-     .swiper-wrapper{
-       .swiper-slide{
-         padding: 0 100px;
-         @include _992{
-           padding: 0 80px;
-         }
-         @include _576{
-           padding: 0 45px;
-         }
-         @include _480{
-           padding: 0 35px;
-         }
-         @include _320{
-           padding: 0;
-         }
-         .item__top{
-           display: flex;
-           align-items: center;
-           margin-bottom: 40px;
-           @include _576{
-             flex-direction: column;
-             margin-bottom: 30px;
-           }
-           @include _320{
-             margin-bottom: 20px;
-           }
-           .item__logo{
-             @extend %logo-circle;
-             overflow: hidden;
-             margin-right: 30px;
-             @include _576{
-               width: 100px;
-               height: 100px;
-               margin-right: 0;
-               margin-bottom: 20px;
-             }
-             @include _320{
-               width: 80px;
-               height: 80px;
-               margin-bottom: 10px;
-             }
-             img{
-               width: 100%;
-             }
-           }
-           .item__link{
-             display: flex;
-             align-items: center;
-            .item__header{
-              display: inline-block;
-              @extend %h4-header;
+
+//__________________________COURSE_IN_PHONE__________________________
+.course {
+  @extend %margin-blocks;
+
+  .course__row {
+    display: flex;
+    flex-direction: column;
+
+    .course__header {
+      @extend %block-header;
+
+      @include _992 {
+        line-height: 50px;
+      }
+
+      @include _768 {
+        line-height: 50px;
+      }
+
+      @include _576 {
+        line-height: 40px;
+      }
+
+      @include _320 {
+        line-height: 30px;
+      }
+    }
+
+    .course__body {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      @include _576 {
+        align-items: center;
+      }
+
+      .course__text {
+        @extend %second-font-style;
+        margin-bottom: 30px;
+      }
+
+      .course__btn {
+        @extend %yellow-btn;
+        position: relative;
+        @extend %btn-pulse;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+//__________________________PROGRAM__________________________
+.program {
+  @extend %margin-blocks;
+
+  .program__header {
+    @extend %block-header;
+  }
+
+  .program__row {
+    .program__list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 30px;
+
+      @include _992 {
+        grid-gap: 20px;
+      }
+
+      @include _768 {}
+
+      @include _576 {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      .program__item {
+        @extend %block-border;
+        @extend %bg-blur;
+        padding: 30px;
+
+        &:last-child {
+          grid-column: 1 / span 2;
+
+          @include _576 {
+            grid-column: 1 / span 1;
+          }
+        }
+
+        @include _768 {
+          padding: 25px;
+        }
+
+        @include _320 {
+          padding: 10px;
+        }
+
+        .item__content {
+          display: flex;
+          flex-direction: column;
+
+          @include _576 {
+            align-items: center;
+            flex-direction: column;
+          }
+
+          .item__top {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+
+            @include _768 {
+              flex-direction: column;
+            }
+
+            @include _576 {
+              margin-bottom: 20px;
+            }
+
+            @include _480 {
+              margin-bottom: 10px;
+            }
+
+            .item__logo {
               margin-right: 30px;
-              @include _576{
-               margin-right: 10px;
-             }
-              a{
+              position: relative;
+              align-self: center;
+
+              @include _992 {
+                margin-right: 20px;
+              }
+
+              @include _768 {
+                margin-right: 0;
+                margin-bottom: 20px;
+              }
+
+              @include _576 {
+                margin-bottom: 10px;
+              }
+
+              svg {
+                width: 100px;
+                height: 100px;
+
+                @include _768 {
+                  width: 80px;
+                  height: 80px;
+                }
+              }
+            }
+
+            .item__header {
+              @extend %h4-header;
+
+              @include _768 {
+                text-align: center;
+              }
+
+              @include _320 {
+                margin-bottom: 10px;
+              }
+            }
+          }
+
+          .item__body {
+            align-self: flex-start;
+
+            .item__list {
+              .item__list-item {
+                @extend %second-font-style;
+                margin-bottom: 5px;
+
+                @include _480 {
+                  margin-bottom: 0;
+                }
+
+                &:before {
+                  content: url("../../images/star-item.svg");
+                  margin-right: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//__________________________REVIEWS__________________________
+.reviews {
+  @extend %margin-blocks;
+
+  .reviews__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    max-width: 970px;
+
+    .reviews__header {
+      @extend %block-header;
+    }
+
+    .swiper {
+      width: 100%;
+
+      @include _320 {
+        width: 300px;
+      }
+
+      .swiper-wrapper {
+        .swiper-slide {
+          padding: 0 100px;
+
+          @include _992 {
+            padding: 0 80px;
+          }
+
+          @include _576 {
+            padding: 0 45px;
+          }
+
+          @include _480 {
+            padding: 0 35px;
+          }
+
+          @include _320 {
+            padding: 0;
+          }
+
+          .item__top {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+
+            @include _576 {
+              flex-direction: column;
+              margin-bottom: 30px;
+            }
+
+            @include _320 {
+              margin-bottom: 20px;
+            }
+
+            .item__logo {
+              @extend %logo-circle;
+              overflow: hidden;
+              margin-right: 30px;
+
+              @include _576 {
+                width: 100px;
+                height: 100px;
+                margin-right: 0;
+                margin-bottom: 20px;
+              }
+
+              @include _320 {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 10px;
+              }
+
+              img {
+                width: 100%;
+              }
+            }
+
+            .item__link {
+              display: flex;
+              align-items: center;
+
+              .item__header {
+                display: inline-block;
+                @extend %h4-header;
+                margin-right: 30px;
+
+                @include _576 {
+                  margin-right: 10px;
+                }
+
+                a {
+                  color: $text-color;
+                }
+              }
+            }
+          }
+
+          .item__text {
+            p {
+              a {
+                color: $main-yellow;
+              }
+
+              @extend %second-font-style;
+
+              @include _576 {
+                text-align: justify;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+      }
+
+      @extend %slider-btn;
+    }
+  }
+}
+
+//__________________________COMPANIES__________________________
+.companies {
+  @extend %margin-blocks;
+
+  @include _1200 {
+    margin-bottom: 200px;
+  }
+
+  @include _576 {
+    margin-bottom: 100px;
+  }
+
+  .companies__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1360px;
+
+    .companies__header {
+      @extend %block-header;
+      text-align: center;
+    }
+
+    .swiper {
+      width: 100%;
+
+      .swiper-wrapper {
+        .swiper-slide {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+          height: auto;
+
+          .item__top {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 200px;
+
+            @include _576 {
+              height: 150px;
+            }
+
+            img {
+              max-width: 100%;
+            }
+          }
+
+          .item__bottom {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+
+            @include _576 {
+              height: 150px;
+            }
+
+            img {
+              max-width: 100%;
+            }
+          }
+
+          #onTheSpot-logo {
+            path {
+              fill: #ffffff;
+
+              &:nth-child(8) {
+                fill: $background-color;
+              }
+            }
+
+            rect {
+              fill: #ffffff;
+            }
+          }
+
+          #iTechArt-logo {
+            path {
+              fill: #ffffff;
+            }
+          }
+        }
+      }
+    }
+
+    @extend %slider-btn;
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      top: 65%;
+
+      @include _1200 {
+        display: none;
+      }
+    }
+
+    .swiper-button-prev {
+      left: -40px;
+    }
+
+    .swiper-button-next {
+      right: -40px;
+    }
+
+    .swiper-pagination {
+      display: none;
+
+      @include _1200 {
+        display: block;
+        bottom: -10%;
+      }
+
+      @include _576 {
+        bottom: -5%;
+      }
+
+      .swiper-pagination-bullet {
+        background: $main-yellow;
+        width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 10px));
+        height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 10px));
+      }
+    }
+  }
+}
+
+//__________________________CERTIFICATE__________________________
+.certificate {
+  @extend %margin-blocks;
+
+  .certificate__row {
+    display: flex;
+    justify-content: center;
+
+    .certificate__img {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+//__________________________FAQ__________________________
+.faq {
+  @extend %margin-blocks;
+
+  .faq__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    max-width: 970px;
+
+    .faq__header {
+      @extend %block-header;
+    }
+
+    .swiper {
+      width: 100%;
+
+      @include _320 {
+        width: 300px;
+      }
+
+      .swiper-wrapper {
+        .swiper-slide {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 0 100px;
+
+          @include _992 {
+            padding: 0 80px;
+          }
+
+          @include _576 {
+            padding: 0 45px;
+          }
+
+          @include _480 {
+            padding: 0 35px;
+          }
+
+          @include _320 {
+            padding: 0;
+          }
+
+          .item__top {
+            margin-bottom: 40px;
+
+            @include _576 {
+              flex-direction: column;
+              margin-bottom: 30px;
+            }
+
+            @include _320 {
+              margin-bottom: 20px;
+            }
+
+            .item__logo {
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+              overflow: hidden;
+              margin-right: 30px;
+              flex-shrink: 0;
+              text-align: center;
+
+              @include _576 {
+                margin-right: 0;
+                margin-bottom: 20px;
+              }
+
+              @include _320 {
+                margin-bottom: 10px;
+              }
+
+              img {
+                width: 100%;
+              }
+            }
+
+            .item__header {
+              @extend %h4-header;
+            }
+          }
+
+          .item__text {
+            @include _576 {
+              line-height: 20px;
+            }
+
+            p {
+              @extend %second-font-style;
+
+              @include _576 {
+                text-align: justify;
+              }
+            }
+          }
+
+          .item__logo {
+            margin-bottom: 30px;
+            position: relative;
+
+            @include _576 {
+              margin-right: 0;
+              margin-bottom: 10px;
+            }
+
+            svg {
+              @include _768 {
+                width: 80px;
+                height: 80px;
+              }
+            }
+          }
+
+          .item__header {
+            @extend %h4-header;
+            margin-bottom: 40px;
+            text-align: center;
+
+            @include _576 {
+              margin-bottom: 20px;
+            }
+          }
+
+          .item__text {
+            @extend %second-font-style;
+
+            @include _576 {
+              text-align: justify;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+
+      @extend %slider-btn;
+
+      .swiper-button-prev,
+      .swiper-button-next {
+        top: 65%;
+      }
+    }
+  }
+}
+
+//__________________________FOOTER__________________________
+.footer {
+  @include _992 {
+    padding: 20px 0;
+  }
+
+  @extend %bg-blur;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+
+  .footer__row {
+    display: flex;
+    height: 260px;
+    padding: 55px 0;
+    justify-content: space-between;
+
+    @include _992 {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 150px;
+    }
+
+    .footer__logo {
+      margin-right: 130px;
+
+      @include _992 {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+
+      a {
+        @extend %logo;
+      }
+    }
+
+    .footer-nav {
+      display: flex;
+      flex: 1 1 auto;
+
+      @include _992 {
+        display: none;
+      }
+
+      .footer__list {
+        &:first-child {
+          margin-right: 145px;
+
+          .footer__item {
+            &:first-child {
+              a {
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 33px;
                 color: $text-color;
               }
             }
-           }
-         }
-         .item__text{
-           p{
-            a{
+          }
+        }
+
+        .footer__item {
+          margin-bottom: 15px;
+
+          a {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 26px;
+            color: #CFCFCF;
+            transition: .3s;
+
+            &:hover {
               color: $main-yellow;
-              }
-             @extend %second-font-style;
-             @include _576{
-               text-align: justify;
-               line-height: 20px;
-             }
-           }
-         }
-       }
-     }
-     @extend %slider-btn;
-   }
- }
-}
-//__________________________COMPANIES__________________________
-.companies{
- @extend %margin-blocks;
- @include _1200{
-   margin-bottom: 200px;
- }
- @include _576{
-   margin-bottom: 100px;
- }
- .companies__row{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin: 0 auto;
-   position: relative;
-   max-width: 1360px;
-   .companies__header{
-     @extend %block-header;
-     text-align: center;
-   }
-   .swiper{
-     width: 100%;
-     .swiper-wrapper{
-       .swiper-slide{
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: space-evenly;
-         height: auto;
-         .item__top{
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           width: 100%;
-           height: 200px;
-           @include _576{
-             height: 150px;
-           }
-           img{
-             max-width: 100%;
-           }
-         }
-         .item__bottom{
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           height: 200px;
-           @include _576{
-             height: 150px;
-           }
-           img{
-             max-width: 100%;
-           }
-         }
-         #onTheSpot-logo{
-           path{
-             fill: #ffffff;
-             &:nth-child(8){
-               fill: $background-color;
-             }
-           }
-           rect{
-            fill: #ffffff;
-          }
-         }
-         #iTechArt-logo{
-           path{
-            fill: #ffffff;
-           }
-         }
-       }
-     }
-   }
-   @extend %slider-btn;
-   .swiper-button-prev,
-   .swiper-button-next{
-     top: 65%;
-     @include _1200{
-       display: none;
-     }
-   }
-   .swiper-button-prev{
-     left: -40px;
-   }
-   .swiper-button-next{
-     right: -40px;
-   }
-   .swiper-pagination{
-     display: none;
-     @include _1200{
-       display: block;
-       bottom: -10%;
-     }
-     @include _576{
-       bottom: -5%;
-     }
-     .swiper-pagination-bullet{
-       background: $main-yellow;
-       width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,10px));
-       height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,10px));
-     }
-   }
- }
-}
-//__________________________CERTIFICATE__________________________
-.certificate{
- @extend %margin-blocks;
- .certificate__row{
-   display: flex;
-   justify-content: center;
-   .certificate__img{
-     img{
-       width: 100%;
-     }
-   }
- }
-}
-//__________________________FAQ__________________________
-.faq{
- @extend %margin-blocks;
- .faq__row{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin: 0 auto;
-   position: relative;
-   max-width: 970px;
-   .faq__header{
-     @extend %block-header;
-   }
-   .swiper{
-     width: 100%;
-     @include _320{
-       width:300px;
-     }
-     .swiper-wrapper{
-       .swiper-slide{
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         padding: 0 100px;
-         @include _992{
-           padding: 0 80px;
-         }
-         @include _576{
-          padding: 0 45px;
-         }
-         @include _480{
-          padding: 0 35px;
-         }
-         @include _320{
-           padding: 0;
-         }
-         .item__top{
-           margin-bottom: 40px;
-           @include _576{
-             flex-direction: column;
-             margin-bottom: 30px;
-           }
-           @include _320{
-             margin-bottom: 20px;
-           }
-           .item__logo{
-             width: 100px;
-             height: 100px;
-             border-radius: 50%;
-             overflow: hidden;
-             margin-right: 30px;
-             flex-shrink: 0;
-             text-align: center;
-             @include _576{
-               margin-right: 0;
-               margin-bottom: 20px;
-             }
-             @include _320{
-               margin-bottom: 10px;
-             }
-             img{
-               width: 100%;
-             }
-           }
-           .item__header{
-             @extend %h4-header;
-           }
-         }
-         .item__text{
-           @include _576{
-            line-height: 20px;
-           }
-           p{
-             @extend %second-font-style;
-             @include _576{
-               text-align: justify;
-              }
-           }
-         }
-         .item__logo{
-           margin-bottom: 30px;
-           position: relative;
-           @include _576{
-             margin-right: 0;
-             margin-bottom: 10px;
-           }
-           svg{
-            @include _768{
-              width: 80px;
-              height: 80px;
-            }               
-          }
-         }
-         .item__header{
-           @extend %h4-header;
-           margin-bottom: 40px;
-           text-align: center;
-           @include _576{
-             margin-bottom: 20px;
-           }
-         }
-         .item__text{
-           @extend %second-font-style;
-           @include _576{
-            text-align: justify;
-            line-height: 20px;
-          }
-         }
-       }
-     }
-     @extend %slider-btn;
-     .swiper-button-prev,
-     .swiper-button-next{
-       top: 65%;
-     }
-   }
- }
-}
-//__________________________FOOTER__________________________
-.footer{
-  @include _992{
-    padding: 20px 0;
-  }
-  @extend %bg-blur;
-  border-top: 1px solid rgba(255, 255, 255, 0.6);
- .footer__row{
-   display: flex;
-   height: 260px;
-   padding: 55px 0;
-   justify-content: space-between;
-   @include _992{
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     height: 150px;
-   }
-   .footer__logo{
-     margin-right: 130px;
-     @include _992{
-       margin-right: 0;
-       margin-bottom: 20px;
-     }
-     a{
-       @extend %logo;
-     }
-   }
-   .footer-nav{
-     display: flex;
-     flex: 1 1 auto;
-     @include _992{
-       display: none;
-     }
-     .footer__list{
-       &:first-child{
-         margin-right: 145px;
-         .footer__item{
-          &:first-child{
-            a{
-             font-weight: 600;
-             font-size: 28px;
-             line-height: 33px;
-             color: $text-color;
             }
           }
-         }
-       }
-       .footer__item{
-         margin-bottom: 15px;
-         a{
-           font-style: normal;
-           font-weight: normal;
-           font-size: 24px;
-           line-height: 26px;
-           color: #CFCFCF;
-           transition: .3s;
-           &:hover{
-             color: $main-yellow;
-           }
-         }
-       }
-     }
-   }
-   .footer__link{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     .link__social{
-       margin-bottom: 20px;
-      a{
-        &:first-child{
-          margin-right: 50px;
         }
       }
-     }
-     .yandex__badge{
-       border-radius: 10px;
-     }
-   }
- }
+    }
+
+    .footer__link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .link__social {
+        margin-bottom: 20px;
+
+        a {
+          &:first-child {
+            margin-right: 50px;
+          }
+        }
+      }
+
+      .yandex__badge {
+        border-radius: 10px;
+      }
+    }
+  }
 }
+
 //_________________________ROCKET-SCROLL_________________________
-.scrollup{
-  width:200px;
-  height:200px;
+.scrollup {
+  width: 200px;
+  height: 200px;
   opacity: 0.3;
-  position:fixed;
+  position: fixed;
   transform: rotate(-47deg) scale(.5);
-  bottom:0;
-  right:0;
-  display:none;
-  text-indent:-9999px;
+  bottom: 0;
+  right: 0;
+  display: none;
+  text-indent: -9999px;
   background-image: url('../../images/rocket.png');
   background-repeat: no-repeat;
   transition: .3s;
-  @include _1200{
+
+  @include _1200 {
     display: none !important;
   }
-  &:hover{
+
+  &:hover {
     opacity: 0.7;
   }
 }
-  .anim__rocket{
-    animation-name: anim__rocket;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1;
+
+.anim__rocket {
+  animation-name: anim__rocket;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
 }
-  @keyframes anim__rocket {
-    0%{
-      bottom: 0;
-    }
-    50%{
-      bottom: 75px;
-      opacity: 0;
-    }
-    100%{
-      bottom: 150px;
-      
-    }
+
+@keyframes anim__rocket {
+  0% {
+    bottom: 0;
+  }
+
+  50% {
+    bottom: 75px;
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 150px;
+
+  }
 }
+
 //_________________________CONTRACT___________________________
-.contract{
-  .contract__container{
-    max-width: 100vw; 
+.contract {
+  .contract__container {
+    max-width: 100vw;
     padding: 0 100px;
-    @include _1200{
-      max-width: 1200px; 
+
+    @include _1200 {
+      max-width: 1200px;
       padding: 0 15px;
     }
-    .contract__row{
+
+    .contract__row {
       padding-bottom: 20px;
-      .contract__header{
+
+      .contract__header {
         @extend %block-header;
         text-align: center;
         font-size: 60px;
         line-height: 60px;
         padding-top: 20px;
-        @include _768{
+
+        @include _768 {
           font-size: 30px;
           line-height: 40px;
         }
       }
-      .contract__intro{
+
+      .contract__intro {
         font-size: 20px;
         line-height: 24px;
         margin-bottom: 40px;
       }
-      .accordion__body{
-        .accordion{
+
+      .accordion__body {
+        .accordion {
           font-size: 20px;
           line-height: 24px;
           font-weight: 600;
@@ -1737,22 +2110,25 @@ body{
           outline: none;
           transition: 0.4s;
           margin-bottom: 10px;
-          &:hover{
+
+          &:hover {
             background-color: $main-yellow;
           }
-          &.active{
+
+          &.active {
             background-color: $main-yellow;
           }
         }
-        
-        .panel{
+
+        .panel {
           padding: 0 18px;
           display: none;
           overflow: hidden;
           font-size: 20px;
           line-height: 24px;
-          ol{
-            li{
+
+          ol {
+            li {
               margin-bottom: 10px;
             }
           }
