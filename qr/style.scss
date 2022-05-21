@@ -116,8 +116,9 @@
   font-family: "DeathStar", sans-serif;
   font-size: 140px;
   line-height: 140px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   margin-bottom: 10px;
+  color: rgb(255, 255, 255);
 
   @include _1200 {
     margin-bottom: 10px;
@@ -161,6 +162,7 @@
   line-height: 36px;
   letter-spacing: 0.795em;
   text-transform: uppercase;
+  color: #E4C85A;
 
   @include _992 {
     font-size: 30px;
@@ -191,6 +193,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #081F27;
     background-image: url('../../images/background1.png');
     background-repeat: no-repeat;
     background-position: top;

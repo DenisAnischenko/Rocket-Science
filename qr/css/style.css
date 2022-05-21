@@ -40,8 +40,9 @@ html body .container .intro__title-block .intro__title {
   font-family: "DeathStar", sans-serif;
   font-size: 140px;
   line-height: 140px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   margin-bottom: 10px;
+  color: white;
 }
 
 @media (max-width: 1200px) {
@@ -97,6 +98,7 @@ html body .container .intro__title-block .intro__subtitle, html body .container 
   line-height: 36px;
   letter-spacing: 0.795em;
   text-transform: uppercase;
+  color: #E4C85A;
 }
 
 @media (max-width: 992px) {
@@ -144,6 +146,7 @@ html body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #081F27;
   background-image: url("../../images/background1.png");
   background-repeat: no-repeat;
   background-position: top;
