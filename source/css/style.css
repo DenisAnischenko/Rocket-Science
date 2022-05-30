@@ -3419,7 +3419,13 @@ body {
   text-align: center;
   font-size: 60px;
   line-height: 60px;
-  padding-top: 20px;
+  padding: 30px 70px 0 70px;
+}
+
+@media (max-width: 992px) {
+  .contract .contract__container .contract__row .contract__header {
+    padding: 40px 0 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -3433,6 +3439,12 @@ body {
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .contract .contract__container .contract__row .contract__intro {
+    margin-bottom: 30px;
+  }
 }
 
 .contract .contract__container .contract__row .accordion__body .accordion {
@@ -3453,8 +3465,10 @@ body {
   margin-bottom: 10px;
 }
 
-.contract .contract__container .contract__row .accordion__body .accordion:hover {
-  background-color: #E4C85A;
+@media (min-width: 769px) {
+  .contract .contract__container .contract__row .accordion__body .accordion:hover {
+    background-color: #E4C85A;
+  }
 }
 
 .contract .contract__container .contract__row .accordion__body .accordion.active {
@@ -3471,4 +3485,53 @@ body {
 
 .contract .contract__container .contract__row .accordion__body .panel ol li {
   margin-bottom: 10px;
+}
+
+.contract .contract__container .language {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 5%;
+  right: 6%;
+}
+
+@media (max-width: 1200px) {
+  .contract .contract__container .language {
+    top: 2%;
+    right: 3%;
+  }
+}
+
+.contract .contract__container .language span {
+  font-size: 20px;
+  color: #cccccc;
+  opacity: .7;
+}
+
+@media (max-width: 1200px) {
+  .contract .contract__container .language span {
+    font-size: 18px;
+  }
+}
+
+.contract .contract__container .language .lang__btn {
+  background-color: transparent;
+  color: #cccccc;
+  opacity: .7;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media (max-width: 1200px) {
+  .contract .contract__container .language .lang__btn {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+.contract .contract__container .language .lang__btn.active {
+  color: #ffffff;
+  opacity: 1;
 }

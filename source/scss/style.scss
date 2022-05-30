@@ -2638,8 +2638,11 @@ body {
         text-align: center;
         font-size: 60px;
         line-height: 60px;
-        padding-top: 20px;
+        padding: 30px 70px 0 70px;
 
+        @include _992() {
+          padding: 40px 0 0;
+        }
         @include _768 {
           font-size: 30px;
           line-height: 40px;
@@ -2650,6 +2653,9 @@ body {
         font-size: 20px;
         line-height: 24px;
         margin-bottom: 40px;
+        @include _768 {
+          margin-bottom: 30px;
+        }
       }
 
       .accordion__body {
@@ -2667,11 +2673,11 @@ body {
           outline: none;
           transition: 0.4s;
           margin-bottom: 10px;
-
-          &:hover {
-            background-color: $main-yellow;
+          @media(min-width: 769px) {
+            &:hover {
+              background-color: $main-yellow;
+            }
           }
-
           &.active {
             background-color: $main-yellow;
           }
@@ -2691,6 +2697,43 @@ body {
           }
         }
       }
+    }
+
+    .language {
+      display: flex;
+      position: absolute;
+      top: 5%;
+      right: 6%;
+      @include _1200 {
+        top: 2%;
+        right: 3%;
+      }
+
+      span {
+        font-size: 20px;
+        color: $text-color-grey;
+        opacity: .7;
+        @include _1200 {
+          font-size: 18px;
+        }
+      }
+
+      .lang__btn{
+        background-color: transparent;
+        color: $text-color-grey;
+        opacity: .7;
+        font-size: 20px;
+        line-height: 24px;
+        @include _1200 {
+          font-size: 18px;
+          line-height: 18px;
+        }
+        &.active {
+          color: $text-color;
+          opacity: 1;
+        }
+      }
+      
     }
   }
 }
