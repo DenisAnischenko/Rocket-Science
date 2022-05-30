@@ -74,16 +74,16 @@ const arrLang = {
         "li__4.1" : "4.1. Стоимость Услуг по настоящему Договору размещена на сайте Исполнителя www.rocket-science.pro и составляет для конкретного Курса/Программы сумму согласно прейскуранту Исполнителя в грузинской валюте - лари, эквивалентную долларам США.",
         "li__4.2" : "4.2. Заказчик производит оплату Услуг Исполнителя после пробного бесплатного периода обучения (пробный период указан для каждого конкретного Курса/Программы на сайте www.rocket-science.pro), но до начала первого платного занятия по Курсу/Программе в размере 100% предоплаты.",
         "li__4.3" : "4.3. Оплачивая сумму, Заказчик подтверждает, что ему известны условия настоящего Договора и согласен с ними;" ,
-        "li__4.4" : `4.4. Оплата Услуг осуществляется Заказчиком в безналичном порядке в грузинской валюте - лари - по курсу Национального банка Грузии, установленному на дату платежа, на расчетный счет Исполнителя:
-        JCS TBC Bank
-        SWIFT: TBCBGE 22
-        BEN'S account: GE82 TB74 9894 5168 2000 01
-        NAME OF BENEFICIARY: Dzianis Anischanka
-        (INTERMEDIARY: DEUTSCHE BANK TRUST COMPANY AMERICAS
-        NEW-YORK, USA
-        SWIFT: BKTRUS33
-        ABA: 021001033
-        BENEFICIARY'S BANK: HEAD OFFICE SWIFT: TBCBGE22)`,
+        "li__4.4" : `4.4. Оплата Услуг осуществляется Заказчиком в безналичном порядке в грузинской валюте - лари - по курсу Национального банка Грузии, установленному на дату платежа, на расчетный счет Исполнителя:`,
+        "li__4.4.1" : "JCS TBC Bank",
+        "li__4.4.2" : "SWIFT: TBCBGE 22",
+        "li__4.4.3" : "BEN'S account: GE82 TB74 9894 5168 2000 01",
+        "li__4.4.4" : "NAME OF BENEFICIARY: Dzianis Anischanka",
+        "li__4.4.5" : "(INTERMEDIARY: DEUTSCHE BANK TRUST COMPANY AMERICAS",
+        "li__4.4.6" : "NEW-YORK, USA",
+        "li__4.4.7" : "SWIFT: BKTRUS33",
+        "li__4.4.8" : "ABA: 021001033",
+        "li__4.4.9" : "BENEFICIARY'S BANK: HEAD OFFICE SWIFT: TBCBGE22)",
         "li__4.5" : "4.5. Все банковские расходы, связанные с перечислением денежных средств, по настоящему Договору на счет Исполнителя, несет Заказчик.",
         "li__4.6" : "4.6. Если оплата (доплата) Услуг не будет произведена в сроки, установленные настоящим Договором, Услуги Исполнителем не предоставляются.",
         "li__4.7" : "4.7. Датой надлежащего исполнения Заказчиком обязательств по оплате Услуг (дата платежа) является дата зачисления денежных средств на расчетный счет Исполнителя.",
@@ -293,16 +293,16 @@ const arrLang = {
         "li__4.1" : "4.1. The Price of Service according to the present Agreement shall be indicated on the Contractor's website: www.rocket-science.pro, and the price of a certain Course/Programme shall amount to the sum indicated in the Contractor's price list in Georgian currency- GEL, equivalent to US dollars.",
         "li__4.2" : "4.2. The Customer shall make a 100% advance payment for the Services of the Contractor after the free trial period (the trial period is specified for each particular Course/Program on the website: www.rocket-science.pro), but before the first paid lesson under the Course/Program.",
         "li__4.3" : "4.3. By paying the amount, the Customer confirms that he/she is aware of the terms and conditions of this Agreement and agrees with them;" ,
-        "li__4.4" : `4.4. The Customer shall pay for the Services via bank transfer in GEL at the exchange rate of the National Bank of Georgia on the date of payment to the current account of the Contractor:
-        JCS TBC Bank
-        SWIFT: TBCBGE 22
-        BEN'S account: GE82 TB74 9894 5168 2000 01
-        NAME OF BENEFICIARY: Dzianis Anischanka
-        (INTERMEDIARY: DEUTSCHE BANK TRUST COMPANY AMERICAS
-        NEW-YORK, USA
-        SWIFT: BKTRUS33
-        ABA: 021001033
-        BENEFICIARY'S BANK: HEAD OFFICE SWIFT: TBCBGE22)`,
+        "li__4.4" : `4.4. The Customer shall pay for the Services via bank transfer in GEL at the exchange rate of the National Bank of Georgia on the date of payment to the current account of the Contractor:`,
+        "li__4.4.1" : "JCS TBC Bank",
+        "li__4.4.2" : "SWIFT: TBCBGE 22",
+        "li__4.4.3" : "BEN'S account: GE82 TB74 9894 5168 2000 01",
+        "li__4.4.4" : "NAME OF BENEFICIARY: Dzianis Anischanka",
+        "li__4.4.5" : "(INTERMEDIARY: DEUTSCHE BANK TRUST COMPANY AMERICAS",
+        "li__4.4.6" : "NEW-YORK, USA",
+        "li__4.4.7" : "SWIFT: BKTRUS33",
+        "li__4.4.8" : "ABA: 021001033",
+        "li__4.4.9" : "BENEFICIARY'S BANK: HEAD OFFICE SWIFT: TBCBGE22)",
         "li__4.5" : "4.5. The Customer shall bear all bank charges associated with the transfer of funds under this Agreement to the Contractor's account.",
         "li__4.6" : "4.6. If the payment (extra payment) for the Services is not made within the terms specified in this Agreement, the Services shall not be provided by the Contractor.",
         "li__4.7" : "4.7. The date of crediting funds to the settlement account of the Contractor shall be the date of the proper fulfillment of the Customer's obligations to pay for the Service (date of payment).",
@@ -505,16 +505,16 @@ const arrLang = {
         "li__4.1" : "4.1. ამ ხელშეკრულებით გათვალისწინებული მომსახურების საფასური განთავსებულია შემსრულებლის ვებგვერდზე www.rocket-science.pro კონკრეტული სასწავლო კურსის/პროგრამისთვის საფასური შემსრულებლის მიერ მითითებულია ეროვნულ ვალუტაში - ლარში, აშშ დოლარის ექვივალენტური ოდენობით.",
         "li__4.2" : "4.2. დამკვეთი საფასურს იხდის შემსრულებლის მიერ მიწოდებული საცდელი უფასო გაკვეთილის შემდეგ (მითითებულია თითოეულ კონკრეტულ სასწავლო კურსზე/პროგრამაზე ვებგვერდზე www.rocket-science.pro ), მაგრამ არაუგვიანეს სასწავლო კურსის / პროგრამის პირველი ფასიანი გაკვეთილის დაწყებისა. მომსახურების საფასური გადაიხდება წინსწრებით, სრული 100 %-ის ოდენობით.",
         "li__4.3" : "4.3. თანხის გადახდით დამკვეთი ადასტურებს, რომ იცნობს წინამდებარე ხელშეკრულების პირობებს და ეთანხმება მათ;" ,
-        "li__4.4" : `4.4. მომსახურების გადახდა ხდება დამკვეთის მიერ უნაღდო ანგარიშსწორებით საქართველოს ვალუტაში - ლარში - გადახდის დღეს დადგენილი საქართველოს ეროვნული ბანკის კურსით, შემსრულებლის საბანკო ანგარიშზე:
-        სს თიბისი ბანკი
-        SWIFT: TBCBGE 22
-        ანგარიშსწორების ანგარიში: GE82 TB74 9894 5168 2000 01
-        ბენეფიციარის დასახელება: დზიანის ანიშჩანკა
-        (შუამავალი: DEUTSCHE BANK TRUST COMPANY AMERICAS
-        ნიუ იორკი, აშშ
-        SWIFT: BKTRUS33
-        ABA: 021001033
-        ბენეფიციარის ბანკი: სათაო ოფისი SWIFT: TBCBGE22)`,
+        "li__4.4" : `4.4. მომსახურების გადახდა ხდება დამკვეთის მიერ უნაღდო ანგარიშსწორებით საქართველოს ვალუტაში - ლარში - გადახდის დღეს დადგენილი საქართველოს ეროვნული ბანკის კურსით, შემსრულებლის საბანკო ანგარიშზე:`,
+        "li__4.4.1" : "სს თიბისი ბანკი",
+        "li__4.4.2" : "SWIFT: TBCBGE 22",
+        "li__4.4.3" : "ანგარიშსწორების ანგარიში: GE82 TB74 9894 5168 2000 01",
+        "li__4.4.4" : "ბენეფიციარის დასახელება: დზიანის ანიშჩანკა",
+        "li__4.4.5" : "(შუამავალი: DEUTSCHE BANK TRUST COMPANY AMERICAS",
+        "li__4.4.6" : "ნიუ იორკი, აშშ",
+        "li__4.4.7" : "SWIFT: BKTRUS33",
+        "li__4.4.8" : "ABA: 021001033",
+        "li__4.4.9" : "ბენეფიციარის ბანკი: სათაო ოფისი SWIFT: TBCBGE22)",
         "li__4.5" : "4.5. ყველა საკომისიო, რომელიც დაკავშირებულია წინამდებარე ხელშეკრულებით გათვალისწინებული თანხის შემსრულებლის ანგარიშზე გადარიცხვასთან, ეკისრება დამკვეთს.",
         "li__4.6" : "4.6. თუ მომსახურების საფასურის გადახდა (წინასწარი ანგარიშსწორება) არ განხორციელდება წინამდებარე ხელშეკრულებით დადგენილ ვადებში, მომსახურება არ იქნება გაწეული შემსრულებლის მიერ.",
         "li__4.7" : "4.7. დამკვეთის მიერ მომსახურების საფასურის გადახდის ვალდებულების სათანადო შესრულების თარიღი (გადახდის თარიღი) არის თარიღი, როდესაც თანხები ჩაირიცხება შემსრულებლის საბანკო ანგარიშზე.",
