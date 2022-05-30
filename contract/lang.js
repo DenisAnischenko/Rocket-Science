@@ -686,5 +686,3 @@ $(function() {
         });
     });
 });
-
-console.log(geoLang);

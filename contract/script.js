@@ -13,3 +13,8 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+const panelConfidentiality = document.getElementById('panel-confidentiality');
+if(window.location.href === 'https://rocket-science.pro/contract/contract.html#confidentiality') {
+    panelConfidentiality.style.display = 'block'
+}
