@@ -647,12 +647,10 @@ const arrLang = {
     },
 }
 
-const geoLang = navigator.language;
-
 $(function() {
     // $("#ru").addClass("active");
     if (navigator.language === 'ru-RU' || navigator.language === 'ru') { // Если язык браузера русский, то...
-        $("#ru").addClass("active"); 
+        $("#ru").addClass("active");
 
         $('.lang').each(function (index, item) { // Показываем версию на русском
             $(this).text(arrLang["ru"][$(this).attr('key')]);
@@ -680,7 +678,7 @@ $(function() {
             $("#en").removeClass("active");
             $("#ge").addClass("active");
         }
-        
+
         $('.lang').each(function (index, item) {
             $(this).text(arrLang[lang][$(this).attr('key')]);
         });

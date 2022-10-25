@@ -68,7 +68,7 @@
   /* Chrome < 4, Legacy iOS */
 }
 
-@font-face { 
+@font-face {
   font-family: "FuturaPTDemi";
   src: url("../../fonts/FuturaPTDemi.eot");
   src: url("../../fonts/FuturaPTDemi.eot?#iefix") format("embedded-opentype"),
@@ -190,6 +190,7 @@ $second-yellow: #F5E098;
   text-transform: uppercase;
   color: $main-yellow;
   margin-bottom: 36px;
+  white-space: nowrap;
 
   @include _992 {
     font-size: 30px;
@@ -554,10 +555,6 @@ body {
   background-position: top;
   background-size: cover;
 
-  @include _1680 {
-    background-size: contain;
-  }
-
   @include _576 {
     background-position: 0 45px;
   }
@@ -830,13 +827,23 @@ body {
         display: block;
       }
 
+      @include _576 {
+        &.intro__row--main {
+          height: calc(60vh - 90px);
+        }
+
+        @media only screen and (min-device-width : 320px) and (max-device-width : 992px) and (orientation : landscape) {
+          height: calc(60% - 90px);
+        }
+      }
+
       .intro__body {
         flex: 0 1 600px;
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        
+
         @include _1680 {
           flex: 0 1 40%;
         }
@@ -887,7 +894,7 @@ body {
             svg {
               width: 226px;
               height: 206px;
-              
+
               @include _1200 {
                 width: 160px;
                 height: 140px;
@@ -903,7 +910,7 @@ body {
             display: flex;
             flex-direction: column;
             align-items: center;
-            
+
             .start-number {
               font-family: "FuturaPTDemi";
               font-weight: 700;
@@ -1045,37 +1052,102 @@ body {
     margin-bottom: 0;
   }
 
+  .prices__rows {
+    display: flex;
+
+    @include _1200 {
+      flex-wrap: wrap;
+    }
+  }
+
   .prices__row {
-    background-image: url(../../images/Vector5.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
     display: flex;
     justify-content: center;
     position: relative;
+    z-index: 555;
+    flex-grow: 1;
 
-    @include _768 {}
-
-    @include _576 {
-      background-image: url(../../images/Vector6.png);
+    &:before {
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '';
+      width: 100%;
+      height: 100%;
       background-repeat: no-repeat;
       background-position: top;
       background-size: contain;
-
+      background-image: url(../../images/Vector5.png);
     }
 
-    @include _480 {}
+    #home-page & {
+      width: 50%;
+
+      &:last-child {
+        margin-left: -150px;
+
+        .prices__body {
+          padding: 115px 0 165px 100px;
+        }
+
+        .prices__title {
+          margin-left: 50px !important;
+
+          @include _576 {
+            margin-left: 0 !important;
+          }
+        }
+
+        @include _1200 {
+          margin-left: 0;
+          width: 100%;
+
+          .prices__body {
+            padding: 165px 130px 165px 0;
+          }
+        }
+
+        @include _576 {
+          .prices__body {
+            padding: 200px 30px 100px 30px;
+          }
+        }
+
+        &:before {
+          transform: rotate(180deg);
+          background-position: bottom;
+
+          @include _1200 {
+            transform: rotate(0);
+          }
+        }
+      }
+    }
+
+    @include _576 {
+      &:before {
+        background-image: url(../../images/Vector6.png);
+      }
+    }
 
     .prices__body {
       flex: 0 1 442px;
-      padding-top: 165px;
-      padding-bottom: 45px;
-      padding-right: 130px;
-      padding-left: 0px;
+      padding: 165px 130px 45px 0;
+
+      #home-page & {
+        padding: 165px 130px 165px 0;
+      }
 
       @include _576 {
-        padding-right: 30px;
-        padding-left: 30px;
+        & {
+          padding-right: 30px;
+          padding-left: 30px;
+        }
+
+        #home-page & {
+          padding: 200px 30px 100px 30px;
+        }
       }
 
       @include _480 {
@@ -1112,6 +1184,10 @@ body {
               font-size: 60px;
               line-height: 50px;
               color: $second-yellow;
+
+              #home-page & {
+                color: #fff;
+              }
 
               @include _480 {
                 font-size: 40px;
@@ -1172,6 +1248,19 @@ body {
             }
           }
 
+          .prices__title {
+            margin-left: 120px;
+            font-family: 'FuturaDemiC';
+            font-size: 56px;
+            line-height: 65px;
+            text-transform: uppercase;
+            color: $second-yellow;
+
+            @include _576 {
+              margin-left: 0;
+            }
+          }
+
           .prices__weeks {
             margin-bottom: 19px;
 
@@ -1188,10 +1277,20 @@ body {
                 line-height: 41px;
                 margin-left: 22px;
 
+                #home-page & {
+                  font-size: 26px;
+                  line-height: 29px;
+                }
+
                 @include _480 {
                   font-size: 24px;
                   line-height: 24px;
                   margin-left: 10px;
+
+                  #home-page & {
+                    font-size: 16px;
+                    line-height: 19px;
+                  }
                 }
               }
             }
@@ -1224,6 +1323,10 @@ body {
               position: relative;
               @extend %btn-pulse;
               overflow: hidden;
+
+              #home-page & {
+                background: #fff;
+              }
             }
           }
         }
@@ -1348,28 +1451,28 @@ body {
       @extend %block-header;
       text-align: center;
     }
-  
+
     .tutorial__text {
       @extend %second-font-style;
       // margin-bottom: 40px;
       max-width: 1030px;
       margin: 0 auto 40px auto;
     }
-  
+
     .tutorial__content {
       display: flex;
       align-items: center;
       margin: 0 auto;
       position: relative;
       flex-direction: column;
-  
+
       .swiper5 {
         height: 80%;
         width: 100%;
         @include _320 {
           width: 300px;
         }
-  
+
         .swiper-wrapper {
           .swiper-slide {
             text-align: center;
@@ -1378,7 +1481,7 @@ body {
             align-items: center;
           }
         }
-  
+
         @extend %slider-btn;
         .swiper-button-prev,
         .swiper-button-next {
@@ -1388,20 +1491,20 @@ body {
       }
     }
       }
-  
+
       .swiper4 {
         width: 100%;
         height: 100%;
         padding: 20px 0;
         box-sizing: border-box;
         max-width: 1030px;
-  
+
         .swiper-wrapper {
           .swiper-slide {
             width: 25%;
             height: 100%;
             opacity: 0.4;
-            
+
             img {
               display: block;
               width: 100%;
@@ -1526,7 +1629,7 @@ body {
       @extend %block-header;
       text-align: center;
     }
-    
+
     .mentors__row {
       display: flex;
       flex-direction: column;
@@ -1572,7 +1675,7 @@ body {
                 width: 100%;
               }
             }
-  
+
             .mentors__data {
               display: flex;
               margin-bottom: 30px;
@@ -1581,12 +1684,12 @@ body {
                 @extend %h4-header;
                 margin-right: 20px;
               }
-             
+
               a{
-  
+
               }
             }
-  
+
             .mentors__item-list {
               @extend %second-font-style;
               li {
@@ -1622,7 +1725,7 @@ body {
         @include _1200 {
           bottom: -10%;
         }
-  
+
         .swiper-pagination-bullet {
           background-image: url("../../images/star-item.svg");
           background-repeat: no-repeat;
@@ -1649,16 +1752,6 @@ body {
     .program__list {
       display: flex;
       flex-direction: column;
-
-      @include _992 {
-
-      }
-
-      @include _768 {}
-
-      @include _576 {
-
-      }
 
       .program__item {
         // @extend %block-border;
@@ -1691,29 +1784,29 @@ body {
             align-items: flex-start;
             margin: 0 auto;
             flex: 0 1 600px;
-  
+
             .item__header {
               @extend %h4-header;
               margin-bottom: 20px;
-  
+
               @include _768 {
                 margin-bottom: 10px;
               }
-  
+
               @include _320 {
                 margin-bottom: 10px;
               }
             }
-            
+
             .item__list {
               .item__list-item {
                 @extend %second-font-style;
                 margin-bottom: 5px;
-  
+
                 @include _480 {
                   margin-bottom: 0;
                 }
-  
+
                 &:before {
                   content: url("../../images/star-item.svg");
                   margin-right: 5px;
@@ -1745,7 +1838,7 @@ body {
           }
         }
       }
-      
+
       #myBtn {
         @extend %bg-blur;
         @extend %h4-header;
@@ -1882,96 +1975,96 @@ body {
 
       .swiper {
         width: 100%;
-  
+
         @include _320 {
           width: 300px;
         }
-  
+
         .swiper-wrapper {
           .swiper-slide {
             padding: 0 100px;
-  
+
             @include _992 {
               padding: 0 80px;
             }
-  
+
             @include _576 {
               padding: 0 45px;
             }
-  
+
             @include _480 {
               padding: 0 35px;
             }
-  
+
             @include _320 {
               padding: 0;
             }
-  
+
             .item__top {
               display: flex;
               align-items: center;
               margin-bottom: 40px;
-  
+
               @include _576 {
                 flex-direction: column;
                 margin-bottom: 30px;
               }
-  
+
               @include _320 {
                 margin-bottom: 20px;
               }
-  
+
               .item__logo {
                 @extend %logo-circle;
                 overflow: hidden;
                 margin-right: 30px;
-  
+
                 @include _576 {
                   width: 100px;
                   height: 100px;
                   margin-right: 0;
                   margin-bottom: 20px;
                 }
-  
+
                 @include _320 {
                   width: 80px;
                   height: 80px;
                   margin-bottom: 10px;
                 }
-  
+
                 img {
                   width: 100%;
                 }
               }
-  
+
               .item__link {
                 display: flex;
                 align-items: center;
-  
+
                 .item__header {
                   display: inline-block;
                   @extend %h4-header;
                   margin-right: 30px;
-  
+
                   @include _576 {
                     margin-right: 10px;
                   }
-  
+
                   a {
                     color: $text-color;
                   }
                 }
               }
             }
-  
+
             .item__text {
               p {
                 a {
                   color: $main-yellow;
                 }
-  
+
                 @extend %second-font-style;
-  
+
                 @include _576 {
                   text-align: justify;
                   line-height: 20px;
@@ -2001,7 +2094,7 @@ body {
             top: 205px;
           }
         }
-  
+
         @extend %slider-btn;
       }
     }
@@ -2257,7 +2350,7 @@ body {
               @extend %h4-header;
             }
           }
-          
+
           .item__text {
             @include _576 {
               line-height: 20px;
@@ -2401,7 +2494,7 @@ body {
             }
           }
 
-          
+
 
           .to__telegram {
             background: linear-gradient(36.1deg, #1E86C7 17.56%, #37ADE1 82.2%);
@@ -2439,12 +2532,12 @@ body {
             @media (max-width: 376px) {
               margin-bottom: 15px;
             }
-  
+
             &:hover {
               transform: scale(1.05);
             }
-  
-  
+
+
             span {
               &:first-of-type {
                 font-size: 36px;
@@ -2452,7 +2545,7 @@ body {
                 color: #FFFFFF;
               }
             }
-  
+
             .flare {
               position: absolute;
               top: 0;
@@ -2464,12 +2557,12 @@ body {
               background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
               animation: flareAnimation 2s infinite linear;
             }
-  
+
             @keyframes flareAnimation {
               0% {
                 left: -150%;
               }
-  
+
               100% {
                 left: 150%;
               }
@@ -2545,13 +2638,13 @@ body {
           margin-bottom: 15px;
         }
         .footer__block-list {
-  
+
           li {
             margin-bottom: 15px;
             &:last-child {
               margin-bottom: 0;
             }
-  
+
             a{
               @extend %second-font-style;
               &:hover {
@@ -2718,7 +2811,7 @@ body {
         }
       }
 
-      .lang__btn{
+      .lang__btn {
         background-color: transparent;
         color: $text-color-grey;
         opacity: .7;
@@ -2733,7 +2826,6 @@ body {
           opacity: 1;
         }
       }
-      
     }
   }
 }
