@@ -1,80 +1,6 @@
 @import "null";
-
-//__________________________Fonts__________________________
-@font-face {
-  font-family: 'FuturaBookC';
-  src: url('../../fonts/futurabookc.eot');
-  /* IE 9 Compatibility Mode */
-  src: url('../../fonts/futurabookc.eot?#iefix') format('embedded-opentype'),
-    /* IE < 9 */
-    url('../../fonts/futurabookc.woff2') format('woff2'),
-    /* Super Modern Browsers */
-    url('../../fonts/futurabookc.woff') format('woff'),
-    /* Firefox >= 3.6, any other modern browser */
-    url('../../fonts/futurabookc.ttf') format('truetype'),
-    /* Safari, Android, iOS */
-    url('../../fonts/futurabookc.svg#futurabookc') format('svg');
-  /* Chrome < 4, Legacy iOS */
-}
-
-@font-face {
-  font-family: "DeathStar";
-  src: url('../../fonts/death_Star.eot?') format("eot"),
-    url("../../fonts/death_Star.woff") format("woff"),
-    url("../../fonts/death_Star.ttf") format("truetype"),
-    url("../../fonts/death_Star.svg#DeathStar") format("svg");
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'FuturaDemiC';
-  src: url('../../fonts/futurademic.eot');
-  /* IE 9 Compatibility Mode */
-  src: url('../../fonts/futurademic.eot?#iefix') format('embedded-opentype'),
-    /* IE < 9 */
-    url('../../fonts/futurademic.woff2') format('woff2'),
-    /* Super Modern Browsers */
-    url('../../fonts/futurademic.woff') format('woff'),
-    /* Firefox >= 3.6, any other modern browser */
-    url('../../fonts/futurademic.ttf') format('truetype'),
-    /* Safari, Android, iOS */
-    url('../../fonts/futurademic.svg#futurademic') format('svg');
-  /* Chrome < 4, Legacy iOS */
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: local('Futura PT Bold'), local('Futura-PT-Bold'),
-    url('../../fonts/FuturaPT-Bold.woff2') format('woff2'),
-    url('../../fonts/FuturaPT-Bold.woff') format('woff'),
-    url('../../fonts/FuturaPT-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'FuturaLightC';
-  src: url('../../fonts/futuralightc.eot');
-  /* IE 9 Compatibility Mode */
-  src: url('../../fonts/futuralightc.eot?#iefix') format('embedded-opentype'),
-    /* IE < 9 */
-    url('../../fonts/futuralightc.woff2') format('woff2'),
-    /* Super Modern Browsers */
-    url('../../fonts/futuralightc.woff') format('woff'),
-    /* Firefox >= 3.6, any other modern browser */
-    url('../../fonts/futuralightc.ttf') format('truetype'),
-    /* Safari, Android, iOS */
-    url('../../fonts/futuralightc.svg#futuralightc') format('svg');
-  /* Chrome < 4, Legacy iOS */
-}
-
-@font-face {
-  font-family: "FuturaPTDemi";
-  src: url("../../fonts/FuturaPTDemi.eot");
-  src: url("../../fonts/FuturaPTDemi.eot?#iefix") format("embedded-opentype"),
-  url("../../fonts/FuturaPTDemi.woff") format("woff"),
-  url("../../fonts/FuturaPTDemi.ttf") format("truetype");
-}
+@import "fonts";
+@import "mixins";
 
 //__________________________Colors__________________________
 $background-color: #081F27;
@@ -86,49 +12,6 @@ $text-color: #ffffff;
 $text-color-grey: #cccccc;
 $main-yellow: #E4C85A;
 $second-yellow: #F5E098;
-
-//__________________________Mixins__________________________
-@mixin _1680 {
-  @media (max-width: 1680px) {
-    @content;
-  }
-}
-
-@mixin _1200 {
-  @media (max-width: 1200px) {
-    @content;
-  }
-}
-
-@mixin _992 {
-  @media (max-width: 992px) {
-    @content;
-  }
-}
-
-@mixin _768 {
-  @media (max-width: 768px) {
-    @content;
-  }
-}
-
-@mixin _576 {
-  @media (max-width: 576px) {
-    @content;
-  }
-}
-
-@mixin _480 {
-  @media (max-width: 480px) {
-    @content;
-  }
-}
-
-@mixin _320 {
-  @media (max-width: 320px) {
-    @content;
-  }
-}
 
 //__________________________Patterns__________________________
 %bg-blur {
@@ -149,8 +32,6 @@ $second-yellow: #F5E098;
   font-size: 150px;
   line-height: 170px;
   letter-spacing: 0.02em;
-
-  @include _1200 {}
 
   @include _992 {
     font-size: 125px;
@@ -209,7 +90,6 @@ $second-yellow: #F5E098;
   @include _480 {
     font-size: 13px;
     line-height: 15px;
-    // margin-bottom: 10px;
   }
 
   @include _320 {
@@ -375,7 +255,6 @@ $second-yellow: #F5E098;
 }
 
 %slider-btn {
-
   .swiper-button-prev::after,
   .swiper-button-next::after {
     color: $second-yellow;
@@ -420,7 +299,6 @@ $second-yellow: #F5E098;
     height: 100%;
     width: 45px;
     transform: skewX(45deg);
-    animation: flareAnimation;
     left: -150%;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
     animation: flareAnimation 2s infinite linear;
@@ -524,6 +402,10 @@ $second-yellow: #F5E098;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+
+  #english-page & {
+    background-image: url('../../images/card_border-english.png');
+  }
 }
 
 %program_card {
@@ -532,12 +414,17 @@ $second-yellow: #F5E098;
   background-position: top;
   background-size: cover;
 
+  #english-page & {
+    background-image: url('../../images/program_card-english.png');
+  }
+
   @include _768 {
     background-size: auto;
   }
 }
 
 //__________________________BODY, WRAPPER, CONTAINER, CONTENT__________________________
+
 body {
   background-color: $background-color;
   font-family: 'FuturaBookC', sans-serif;
@@ -554,6 +441,10 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+
+  &#english-page {
+    background-image: url('../../images/background-english.png');
+  }
 
   @include _576 {
     background-position: 0 45px;
@@ -1044,12 +935,8 @@ body {
     margin-bottom: 60px;
   }
 
-  @include _480 {
-    margin-bottom: 0px;
-  }
-
   @include _320 {
-    margin-bottom: 0;
+    margin-bottom: 40px;
   }
 
   .prices__rows {
@@ -1274,7 +1161,7 @@ body {
               align-items: center;
 
               span:nth-child(2) {
-                font-size: 36px;
+                font-size: 22px;
                 line-height: 41px;
                 margin-left: 22px;
 
@@ -1638,7 +1525,15 @@ body {
       margin: 0 auto;
       position: relative;
 
-      .swiper6 {
+      .swiper7 {
+        .swiper-button-prev,
+        .swiper-button-next {
+          display: none;
+        }
+      }
+
+      .swiper6,
+      .swiper7 {
         width: 100%;
         padding-top: 15px;
 
@@ -1700,7 +1595,7 @@ body {
                 &::before {
                   content: '\2022';
                   position: absolute;
-                  left: 30px;
+                  margin-left: -23px;
                 }
 
                 span {

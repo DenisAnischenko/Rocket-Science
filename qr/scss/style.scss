@@ -1,115 +1,6 @@
-@import url('./css/null.css');
-
-//__________________________Fonts__________________________
-@font-face {
-  font-family: 'FuturaBookC';
-  src: url('../../fonts/futurabookc.eot');
-  /* IE 9 Compatibility Mode */
-  src: url('../../fonts/futurabookc.eot?#iefix') format('embedded-opentype'),
-    /* IE < 9 */
-    url('../../fonts/futurabookc.woff2') format('woff2'),
-    /* Super Modern Browsers */
-    url('../../fonts/futurabookc.woff') format('woff'),
-    /* Firefox >= 3.6, any other modern browser */
-    url('../../fonts/futurabookc.ttf') format('truetype'),
-    /* Safari, Android, iOS */
-    url('../../fonts/futurabookc.svg#futurabookc') format('svg');
-  /* Chrome < 4, Legacy iOS */
-}
-
-@font-face {
-  font-family: "DeathStar";
-  src: url('../../fonts/death_Star.eot?') format("eot"),
-    url("../../fonts/death_Star.woff") format("woff"),
-    url("../../fonts/death_Star.ttf") format("truetype"),
-    url("../../fonts/death_Star.svg#DeathStar") format("svg");
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'FuturaDemiC';
-  src: url('../../fonts/futurademic.eot');
-  /* IE 9 Compatibility Mode */
-  src: url('../../fonts/futurademic.eot?#iefix') format('embedded-opentype'),
-    /* IE < 9 */
-    url('../../fonts/futurademic.woff2') format('woff2'),
-    /* Super Modern Browsers */
-    url('../../fonts/futurademic.woff') format('woff'),
-    /* Firefox >= 3.6, any other modern browser */
-    url('../../fonts/futurademic.ttf') format('truetype'),
-    /* Safari, Android, iOS */
-    url('../../fonts/futurademic.svg#futurademic') format('svg');
-  /* Chrome < 4, Legacy iOS */
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: local('Futura PT Bold'), local('Futura-PT-Bold'),
-    url('../../fonts/FuturaPT-Bold.woff2') format('woff2'),
-    url('../../fonts/FuturaPT-Bold.woff') format('woff'),
-    url('../../fonts/FuturaPT-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'FuturaLightC';
-  src: url('../../fonts/futuralightc.eot');
-  /* IE 9 Compatibility Mode */
-  src: url('../../fonts/futuralightc.eot?#iefix') format('embedded-opentype'),
-    /* IE < 9 */
-    url('../../fonts/futuralightc.woff2') format('woff2'),
-    /* Super Modern Browsers */
-    url('../../fonts/futuralightc.woff') format('woff'),
-    /* Firefox >= 3.6, any other modern browser */
-    url('../../fonts/futuralightc.ttf') format('truetype'),
-    /* Safari, Android, iOS */
-    url('../../fonts/futuralightc.svg#futuralightc') format('svg');
-  /* Chrome < 4, Legacy iOS */
-}
-
-//__________________________Mixins__________________________
-@mixin _1680 {
-  @media (max-width: 1680px) {
-    @content;
-  }
-}
-
-@mixin _1200 {
-  @media (max-width: 1200px) {
-    @content;
-  }
-}
-
-@mixin _992 {
-  @media (max-width: 992px) {
-    @content;
-  }
-}
-
-@mixin _768 {
-  @media (max-width: 768px) {
-    @content;
-  }
-}
-
-@mixin _576 {
-  @media (max-width: 576px) {
-    @content;
-  }
-}
-
-@mixin _480 {
-  @media (max-width: 480px) {
-    @content;
-  }
-}
-
-@mixin _320 {
-  @media (max-width: 320px) {
-    @content;
-  }
-}
+@import '../../source/scss/null';
+@import '../../source/scss/fonts';
+@import '../../source/scss/mixins';
 
 // ===========================PATTERNS==================================
 %intro-title {
@@ -123,7 +14,7 @@
   @include _1200 {
     margin-bottom: 10px;
     font-size: 75px;
-    line-height: 75px; 
+    line-height: 75px;
   }
 
   @include _992 {
@@ -188,13 +79,13 @@
 }
 
 // ==============================================================================================================
-html { 
+html {
   body {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #081F27;
-    background-image: url('../../images/background1.png');
+    background-image: url('/images/background1.png');
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -280,7 +171,6 @@ html {
 
       .intro__btn {
         display: flex;
-        // flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
         padding-bottom: 50px;
@@ -317,7 +207,6 @@ html {
             transform: scale(1.05);
           }
 
-
           span {
             &:first-of-type {
               font-size: 36px;
@@ -332,7 +221,6 @@ html {
             height: 100%;
             width: 45px;
             transform: skewX(45deg);
-            animation: flareAnimation;
             left: -150%;
             background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
             animation: flareAnimation 2s infinite linear;

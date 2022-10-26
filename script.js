@@ -22,10 +22,6 @@ const swiper2 = new Swiper(".swiper2", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  // autoplay: {
-  //   delay: 5000,
-  //   disableOnInteraction: true,
-  // },
 });
 
 //* Companies swiper
@@ -62,18 +58,8 @@ const swiper3 = new Swiper(".swiper3", {
       slidesPerView: 2,
       spaceBetween: 20,
     },
-    // when window width is >= 425px
-    425: {
-      slidesPerView: 2,
-      spaceBetween: 30,
-    },
     // when window width is >= 576px
     576: {
-      slidesPerView: 3,
-      spaceBetween: 20,
-    },
-    // when window width is >= 768px
-    768: {
       slidesPerView: 3,
       spaceBetween: 20,
     },
@@ -96,6 +82,7 @@ const swiper4 = new Swiper(".swiper4", {
   centerInsufficientSlides: true,
   slideToClickedSlide: true
 });
+
 const swiper5 = new Swiper(".swiper5", {
   spaceBetween: 10,
   navigation: {
@@ -138,16 +125,6 @@ const swiper6 = new Swiper(".swiper6", {
       slidesPerView: 1,
       spaceBetween: 20,
     },
-    // when window width is >= 360px
-    360: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
-    // when window width is >= 425px
-    425: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
     // when window width is >= 576px
     576: {
       slidesPerView: 1,
@@ -166,6 +143,24 @@ const swiper6 = new Swiper(".swiper6", {
       spaceBetween: 20,
     },
   },
+});
+
+const swiper7 = new Swiper(".swiper7", {
+  slidesPerView: 3,
+  centerInsufficientSlides: true,
+  grabCursor: true,
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    // when window width is >= 576px
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+  }
 });
 
 // ___Paralax-effect___

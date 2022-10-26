@@ -73,40 +73,40 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: "FuturaBookC";
-  src: url("../../fonts/futurabookc.eot");
+  src: url("/fonts/futurabookc.eot");
   /* IE 9 Compatibility Mode */
-  src: url("../../fonts/futurabookc.eot?#iefix") format("embedded-opentype"), url("../../fonts/futurabookc.woff2") format("woff2"), url("../../fonts/futurabookc.woff") format("woff"), url("../../fonts/futurabookc.ttf") format("truetype"), url("../../fonts/futurabookc.svg#futurabookc") format("svg");
+  src: url("/fonts/futurabookc.eot?#iefix") format("embedded-opentype"), url("/fonts/futurabookc.woff2") format("woff2"), url("/fonts/futurabookc.woff") format("woff"), url("/fonts/futurabookc.ttf") format("truetype"), url("/fonts/futurabookc.svg#futurabookc") format("svg");
   /* Chrome < 4, Legacy iOS */
 }
 @font-face {
   font-family: "DeathStar";
-  src: url("../../fonts/death_Star.eot?") format("eot"), url("../../fonts/death_Star.woff") format("woff"), url("../../fonts/death_Star.ttf") format("truetype"), url("../../fonts/death_Star.svg#DeathStar") format("svg");
+  src: url("/fonts/death_Star.eot?") format("eot"), url("/fonts/death_Star.woff") format("woff"), url("/fonts/death_Star.ttf") format("truetype"), url("/fonts/death_Star.svg#DeathStar") format("svg");
   font-style: normal;
 }
 @font-face {
   font-family: "FuturaDemiC";
-  src: url("../../fonts/futurademic.eot");
+  src: url("/fonts/futurademic.eot");
   /* IE 9 Compatibility Mode */
-  src: url("../../fonts/futurademic.eot?#iefix") format("embedded-opentype"), url("../../fonts/futurademic.woff2") format("woff2"), url("../../fonts/futurademic.woff") format("woff"), url("../../fonts/futurademic.ttf") format("truetype"), url("../../fonts/futurademic.svg#futurademic") format("svg");
+  src: url("/fonts/futurademic.eot?#iefix") format("embedded-opentype"), url("/fonts/futurademic.woff2") format("woff2"), url("/fonts/futurademic.woff") format("woff"), url("/fonts/futurademic.ttf") format("truetype"), url("/fonts/futurademic.svg#futurademic") format("svg");
   /* Chrome < 4, Legacy iOS */
 }
 @font-face {
   font-family: "Futura PT";
-  src: local("Futura PT Bold"), local("Futura-PT-Bold"), url("../../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../../fonts/FuturaPT-Bold.woff") format("woff"), url("../../fonts/FuturaPT-Bold.ttf") format("truetype");
+  src: local("Futura PT Bold"), local("Futura-PT-Bold"), url("/fonts/FuturaPT-Bold.woff2") format("woff2"), url("/fonts/FuturaPT-Bold.woff") format("woff"), url("/fonts/FuturaPT-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "FuturaLightC";
-  src: url("../../fonts/futuralightc.eot");
+  src: url("/fonts/futuralightc.eot");
   /* IE 9 Compatibility Mode */
-  src: url("../../fonts/futuralightc.eot?#iefix") format("embedded-opentype"), url("../../fonts/futuralightc.woff2") format("woff2"), url("../../fonts/futuralightc.woff") format("woff"), url("../../fonts/futuralightc.ttf") format("truetype"), url("../../fonts/futuralightc.svg#futuralightc") format("svg");
+  src: url("/fonts/futuralightc.eot?#iefix") format("embedded-opentype"), url("/fonts/futuralightc.woff2") format("woff2"), url("/fonts/futuralightc.woff") format("woff"), url("/fonts/futuralightc.ttf") format("truetype"), url("/fonts/futuralightc.svg#futuralightc") format("svg");
   /* Chrome < 4, Legacy iOS */
 }
 @font-face {
   font-family: "FuturaPTDemi";
-  src: url("../../fonts/FuturaPTDemi.eot");
-  src: url("../../fonts/FuturaPTDemi.eot?#iefix") format("embedded-opentype"), url("../../fonts/FuturaPTDemi.woff") format("woff"), url("../../fonts/FuturaPTDemi.ttf") format("truetype");
+  src: url("/fonts/FuturaPTDemi.eot");
+  src: url("/fonts/FuturaPTDemi.eot?#iefix") format("embedded-opentype"), url("/fonts/FuturaPTDemi.woff") format("woff"), url("/fonts/FuturaPTDemi.ttf") format("truetype");
 }
 .footer, .program .program__row .program__list #myBtn, .header {
   background: rgba(255, 255, 255, 0.149);
@@ -284,48 +284,56 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.footer .footer__row .footer__nav .footer__block .footer__block-list li a, .footer .footer__row .footer__logo .footer__list-links li a, .footer .footer__row .footer__logo .yandex-item .yandex-btn, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text p, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__text p, .program .program__row .program__list .program__item .item__content .item__body .item__list .item__list-item, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list, .course .course__row .course__content .course__body .course__list, .course .course__row .course__content .course__body .course__text, .tutorial .container .tutorial__text, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__text {
+.footer .footer__row .footer__nav .footer__block .footer__block-list li a, .footer .footer__row .footer__logo .footer__list-links li a, .footer .footer__row .footer__logo .yandex-item .yandex-btn, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text p, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__text p, .program .program__row .program__list .program__item .item__content .item__body .item__list .item__list-item, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__item-list, .course .course__row .course__content .course__body .course__list, .course .course__row .course__content .course__body .course__text, .tutorial .container .tutorial__text, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__text {
   font-family: "FuturaLightC", sans-serif;
   font-size: 24px;
   line-height: 26px;
   color: #cccccc;
 }
 @media (max-width: 768px) {
-  .footer .footer__row .footer__nav .footer__block .footer__block-list li a, .footer .footer__row .footer__logo .footer__list-links li a, .footer .footer__row .footer__logo .yandex-item .yandex-btn, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text p, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__text p, .program .program__row .program__list .program__item .item__content .item__body .item__list .item__list-item, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list, .course .course__row .course__content .course__body .course__list, .course .course__row .course__content .course__body .course__text, .tutorial .container .tutorial__text, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__text {
+  .footer .footer__row .footer__nav .footer__block .footer__block-list li a, .footer .footer__row .footer__logo .footer__list-links li a, .footer .footer__row .footer__logo .yandex-item .yandex-btn, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text p, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__text p, .program .program__row .program__list .program__item .item__content .item__body .item__list .item__list-item, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__item-list, .course .course__row .course__content .course__body .course__list, .course .course__row .course__content .course__body .course__text, .tutorial .container .tutorial__text, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__text {
     font-size: 20px;
   }
 }
 @media (max-width: 576px) {
-  .footer .footer__row .footer__nav .footer__block .footer__block-list li a, .footer .footer__row .footer__logo .footer__list-links li a, .footer .footer__row .footer__logo .yandex-item .yandex-btn, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text p, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__text p, .program .program__row .program__list .program__item .item__content .item__body .item__list .item__list-item, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list, .course .course__row .course__content .course__body .course__list, .course .course__row .course__content .course__body .course__text, .tutorial .container .tutorial__text, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__text {
+  .footer .footer__row .footer__nav .footer__block .footer__block-list li a, .footer .footer__row .footer__logo .footer__list-links li a, .footer .footer__row .footer__logo .yandex-item .yandex-btn, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text p, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__text p, .program .program__row .program__list .program__item .item__content .item__body .item__list .item__list-item, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__item-list, .course .course__row .course__content .course__body .course__list, .course .course__row .course__content .course__body .course__text, .tutorial .container .tutorial__text, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__text {
     font-size: 18px;
   }
 }
 @media (max-width: 320px) {
-  .footer .footer__row .footer__nav .footer__block .footer__block-list li a, .footer .footer__row .footer__logo .footer__list-links li a, .footer .footer__row .footer__logo .yandex-item .yandex-btn, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text p, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__text p, .program .program__row .program__list .program__item .item__content .item__body .item__list .item__list-item, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list, .course .course__row .course__content .course__body .course__list, .course .course__row .course__content .course__body .course__text, .tutorial .container .tutorial__text, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__text {
+  .footer .footer__row .footer__nav .footer__block .footer__block-list li a, .footer .footer__row .footer__logo .footer__list-links li a, .footer .footer__row .footer__logo .yandex-item .yandex-btn, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__text p, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__text p, .program .program__row .program__list .program__item .item__content .item__body .item__list .item__list-item, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__item-list, .course .course__row .course__content .course__body .course__list, .course .course__row .course__content .course__body .course__text, .tutorial .container .tutorial__text, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__text {
     font-size: 16px;
   }
 }
 
-.footer .footer__row .footer__nav .footer__block .footer__block-header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header, .reviews .reviews__row .reviews__block .reviews__content .reviews__text, .program .program__row .program__list #myBtn, .program .program__row .program__list .program__item .item__content .item__body .item__header, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__data .mentors__name, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
+.footer .footer__row .footer__nav .footer__block .footer__block-header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header, .reviews .reviews__row .reviews__block .reviews__content .reviews__text, .program .program__row .program__list #myBtn, .program .program__row .program__list .program__item .item__content .item__body .item__header, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__data .mentors__name,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__data .mentors__name, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
   font-family: "FuturaDemiC", sans-serif;
   font-weight: 600;
   font-size: 28px;
   line-height: 33px;
 }
 @media (max-width: 768px) {
-  .footer .footer__row .footer__nav .footer__block .footer__block-header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header, .reviews .reviews__row .reviews__block .reviews__content .reviews__text, .program .program__row .program__list #myBtn, .program .program__row .program__list .program__item .item__content .item__body .item__header, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__data .mentors__name, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
+  .footer .footer__row .footer__nav .footer__block .footer__block-header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header, .reviews .reviews__row .reviews__block .reviews__content .reviews__text, .program .program__row .program__list #myBtn, .program .program__row .program__list .program__item .item__content .item__body .item__header, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__data .mentors__name,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__data .mentors__name, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
     font-size: 26px;
     line-height: 30px;
   }
 }
 @media (max-width: 576px) {
-  .footer .footer__row .footer__nav .footer__block .footer__block-header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header, .reviews .reviews__row .reviews__block .reviews__content .reviews__text, .program .program__row .program__list #myBtn, .program .program__row .program__list .program__item .item__content .item__body .item__header, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__data .mentors__name, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
+  .footer .footer__row .footer__nav .footer__block .footer__block-header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header, .reviews .reviews__row .reviews__block .reviews__content .reviews__text, .program .program__row .program__list #myBtn, .program .program__row .program__list .program__item .item__content .item__body .item__header, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__data .mentors__name,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__data .mentors__name, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
     font-size: 24px;
     line-height: 28px;
   }
 }
 @media (max-width: 320px) {
-  .footer .footer__row .footer__nav .footer__block .footer__block-header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header, .reviews .reviews__row .reviews__block .reviews__content .reviews__text, .program .program__row .program__list #myBtn, .program .program__row .program__list .program__item .item__content .item__body .item__header, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__data .mentors__name, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
+  .footer .footer__row .footer__nav .footer__block .footer__block-header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__header, .faq .faq__row .swiper .swiper-wrapper .swiper-slide .item__top .item__header, .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__link .item__header, .reviews .reviews__row .reviews__block .reviews__content .reviews__text, .program .program__row .program__list #myBtn, .program .program__row .program__list .program__item .item__content .item__body .item__header, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__data .mentors__name,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__data .mentors__name, .advantages .advantages__row .advantages__list .advantages__item .item__content .item__header, .header .header__container .header__row .menu__burger .burger__row .burger__list .burger__item a {
     font-size: 20px;
     line-height: 20px;
   }
@@ -355,20 +363,23 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__logo, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar {
+.reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__logo, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__avatar {
   flex-shrink: 0;
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
 @media (max-width: 576px) {
-  .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__logo, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar {
+  .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__logo, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__avatar {
     width: 80px;
     height: 80px;
   }
 }
 @media (max-width: 320px) {
-  .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__logo, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar {
+  .reviews .reviews__row .reviews__block .swiper .swiper-wrapper .swiper-slide .item__top .item__logo, .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__avatar {
     width: 60px;
     height: 60px;
   }
@@ -420,7 +431,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   width: 45px;
   transform: skewX(45deg);
-  animation: flareAnimation;
   left: -150%;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
   animation: flareAnimation 2s infinite linear;
@@ -509,12 +519,18 @@ h1, h2, h3, h4, h5, h6 {
   background-position: top;
   background-size: cover;
 }
+#english-page .advantages .advantages__row .advantages__list .advantages__item, .advantages .advantages__row .advantages__list #english-page .advantages__item {
+  background-image: url("../../images/card_border-english.png");
+}
 
 .program .program__row .program__list .program__item {
   background-image: url("../../images/program_card.png");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+}
+#english-page .program .program__row .program__list .program__item, .program .program__row .program__list #english-page .program__item {
+  background-image: url("../../images/program_card-english.png");
 }
 @media (max-width: 768px) {
   .program .program__row .program__list .program__item {
@@ -538,6 +554,9 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+}
+.wrapper#english-page {
+  background-image: url("../../images/background-english.png");
 }
 @media (max-width: 576px) {
   .wrapper {
@@ -1005,14 +1024,9 @@ body {
     margin-bottom: 60px;
   }
 }
-@media (max-width: 480px) {
-  .prices {
-    margin-bottom: 0px;
-  }
-}
 @media (max-width: 320px) {
   .prices {
-    margin-bottom: 0;
+    margin-bottom: 40px;
   }
 }
 .prices .prices__rows {
@@ -1236,7 +1250,7 @@ body {
   align-items: center;
 }
 .prices .prices__row .prices__body .prices__content .prices__text .prices__weeks div span:nth-child(2) {
-  font-size: 36px;
+  font-size: 22px;
   line-height: 41px;
   margin-left: 22px;
 }
@@ -1521,61 +1535,77 @@ body {
   margin: 0 auto;
   position: relative;
 }
-.mentors .container .mentors__row .swiper6 {
+.mentors .container .mentors__row .swiper7 .swiper-button-prev,
+.mentors .container .mentors__row .swiper7 .swiper-button-next {
+  display: none;
+}
+.mentors .container .mentors__row .swiper6,
+.mentors .container .mentors__row .swiper7 {
   width: 100%;
   padding-top: 15px;
 }
-.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide {
+.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar {
+.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__avatar {
   overflow: hidden;
   width: 260px;
   height: 260px;
   margin-bottom: 30px;
 }
 @media (min-width: 992px) {
-  .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar:hover {
+  .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar:hover,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__avatar:hover {
     transform: scale(1.05);
     transition: 0.3s;
   }
 }
 @media (max-width: 768px) {
-  .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar {
+  .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__avatar {
     width: 200px;
     height: 200px;
   }
 }
 @media (max-width: 480px) {
-  .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar {
+  .mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__avatar {
     width: 160px;
     height: 160px;
     margin-bottom: 10px;
   }
 }
-.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar img {
+.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__avatar img,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__avatar img {
   width: 100%;
 }
-.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__data {
+.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__data,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__data {
   display: flex;
   margin-bottom: 30px;
 }
-.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__data .mentors__name {
+.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__data .mentors__name,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__data .mentors__name {
   margin-right: 20px;
 }
-.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list li {
+.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list li,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__item-list li {
   padding-left: 50px;
   padding-right: 20px;
   margin-bottom: 10px;
 }
-.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list li::before {
+.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list li::before,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__item-list li::before {
   content: "•";
   position: absolute;
-  left: 30px;
+  margin-left: -23px;
 }
-.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list li span {
+.mentors .container .mentors__row .swiper6 .swiper-wrapper .swiper-slide .mentors__item-list li span,
+.mentors .container .mentors__row .swiper7 .swiper-wrapper .swiper-slide .mentors__item-list li span {
   color: #F5E098;
 }
 .mentors .container .mentors__row .swiper-button-prev,

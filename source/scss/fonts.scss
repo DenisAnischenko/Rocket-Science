@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'FuturaBookC';
+  src: url('/fonts/futurabookc.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('/fonts/futurabookc.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+  url('/fonts/futurabookc.woff2') format('woff2'),
+    /* Super Modern Browsers */
+  url('/fonts/futurabookc.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+  url('/fonts/futurabookc.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+  url('/fonts/futurabookc.svg#futurabookc') format('svg');
+  /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: "DeathStar";
+  src: url('/fonts/death_Star.eot?') format("eot"),
+  url("/fonts/death_Star.woff") format("woff"),
+  url("/fonts/death_Star.ttf") format("truetype"),
+  url("/fonts/death_Star.svg#DeathStar") format("svg");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaDemiC';
+  src: url('/fonts/futurademic.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('/fonts/futurademic.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+  url('/fonts/futurademic.woff2') format('woff2'),
+    /* Super Modern Browsers */
+  url('/fonts/futurademic.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+  url('/fonts/futurademic.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+  url('/fonts/futurademic.svg#futurademic') format('svg');
+  /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: local('Futura PT Bold'), local('Futura-PT-Bold'),
+  url('/fonts/FuturaPT-Bold.woff2') format('woff2'),
+  url('/fonts/FuturaPT-Bold.woff') format('woff'),
+  url('/fonts/FuturaPT-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaLightC';
+  src: url('/fonts/futuralightc.eot');
+  /* IE 9 Compatibility Mode */
+  src: url('/fonts/futuralightc.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */
+  url('/fonts/futuralightc.woff2') format('woff2'),
+    /* Super Modern Browsers */
+  url('/fonts/futuralightc.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */
+  url('/fonts/futuralightc.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+  url('/fonts/futuralightc.svg#futuralightc') format('svg');
+  /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: "FuturaPTDemi";
+  src: url("/fonts/FuturaPTDemi.eot");
+  src: url("/fonts/FuturaPTDemi.eot?#iefix") format("embedded-opentype"),
+  url("/fonts/FuturaPTDemi.woff") format("woff"),
+  url("/fonts/FuturaPTDemi.ttf") format("truetype");
+}
