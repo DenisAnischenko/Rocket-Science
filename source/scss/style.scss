@@ -1084,17 +1084,31 @@ body {
     #home-page & {
       width: 50%;
 
+      .prices__body {
+        padding: 220px 140px 65px 0;
+
+        @include _768 {
+          padding: 200px 30px 100px 30px !important;
+        }
+      }
+
       &:last-child {
         margin-left: -150px;
 
         .prices__body {
           padding: 115px 0 165px 100px;
+
+          @include _1200 {
+            &:last-child {
+              padding: 220px 140px 65px 0;
+            }
+          }
         }
 
         .prices__title {
           margin-left: 50px !important;
 
-          @include _576 {
+          @include _768 {
             margin-left: 0 !important;
           }
         }
@@ -1102,10 +1116,6 @@ body {
         @include _1200 {
           margin-left: 0;
           width: 100%;
-
-          .prices__body {
-            padding: 165px 130px 165px 0;
-          }
         }
 
         @include _576 {
@@ -1125,7 +1135,7 @@ body {
       }
     }
 
-    @include _576 {
+    @include _768 {
       &:before {
         background-image: url(../../images/Vector6.png);
       }
@@ -1135,19 +1145,9 @@ body {
       flex: 0 1 442px;
       padding: 165px 130px 45px 0;
 
-      #home-page & {
-        padding: 165px 130px 165px 0;
-      }
-
-      @include _576 {
-        & {
-          padding-right: 30px;
-          padding-left: 30px;
-        }
-
-        #home-page & {
-          padding: 200px 30px 100px 30px;
-        }
+      @include _768 {
+        padding-right: 30px;
+        padding-left: 30px;
       }
 
       @include _480 {
@@ -1189,7 +1189,7 @@ body {
                 color: #fff;
               }
 
-              @include _480 {
+              @include _768 {
                 font-size: 40px;
                 line-height: 30px;
               }
@@ -1256,7 +1256,8 @@ body {
             text-transform: uppercase;
             color: $second-yellow;
 
-            @include _576 {
+            @include _768 {
+              font-size: 30px;
               margin-left: 0;
             }
           }
@@ -1264,7 +1265,7 @@ body {
           .prices__weeks {
             margin-bottom: 19px;
 
-            @include _480 {
+            @include _768 {
               margin-bottom: 10px;
             }
 
@@ -1282,7 +1283,7 @@ body {
                   line-height: 29px;
                 }
 
-                @include _480 {
+                @include _768 {
                   font-size: 24px;
                   line-height: 24px;
                   margin-left: 10px;
