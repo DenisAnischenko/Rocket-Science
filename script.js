@@ -10,10 +10,6 @@ const swiper1 = new Swiper(".swiper1", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  // autoplay: {
-  //   delay: 5000,
-  //   disableOnInteraction: true,
-  // },
 });
 
 //* FAQ swiper
@@ -210,6 +206,14 @@ $(document).ready(function () {
   $(".scrollup").click(function () {
     $("html, body").animate({ scrollTop: 0 }, 0);
     return false;
+  });
+
+  $('a[href^="#"]').click(function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
   });
 });
 
