@@ -1299,6 +1299,9 @@ body {
   background: #fff;
 }
 
+.advantages .advantages__header {
+  text-align: center;
+}
 .advantages .advantages__row .advantages__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1634,6 +1637,9 @@ body {
   height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 30px));
 }
 
+.program .program__header {
+  text-align: center;
+}
 .program .program__row .program__list {
   display: flex;
   flex-direction: column;

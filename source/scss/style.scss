@@ -1230,6 +1230,8 @@ body {
 
   .advantages__header {
     @extend %block-header;
+
+    text-align: center;
   }
 
   .advantages__row {
@@ -1642,6 +1644,8 @@ body {
 
   .program__header {
     @extend %block-header;
+
+    text-align: center;
   }
 
   .program__row {
